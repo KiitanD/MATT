@@ -1,0 +1,217 @@
+[
+    { 
+        "_id": "ENGL112",
+        "course_title": "Written and Oral Communication",
+        "meeting_type": "A",
+        "required_for": {
+            "BA": 1,
+            "MIS": 1,
+            "CS": 1,
+            "CE": 1,
+            "EE": 1,
+            "ME": 1
+        }
+    },
+    {
+        "_id": "AS111",
+        "course_title": "Ashesi Success",
+        "meeting_type": "D",
+        "required_for": {
+            "BA": 1,
+            "MIS": 1,
+            "CS": 1,
+            "CE": 1,
+            "EE": 1,
+            "ME": 1
+        }
+    },
+    {
+        "_id": "MATH121",
+        "course_title": "Pre-Calculus I",
+        "meeting_type": "E",
+        "option_for": {
+            "BA": 1,
+            "MIS": 1,
+            "CS": 1
+        },
+        "alternative": ["MATH141"]
+    },
+    {
+        "_id": "MATH141",
+        "course_title": "Calculus I",
+        "meeting_type": "E",
+        "option_for": {
+            "BA": 1,
+            "MIS": 1,
+            "CS": 1
+        },
+        "alternative": ["MATH121"]
+    },
+    {
+        "_id": "MATH161",
+        "course_title": "Engineering Calculus",
+        "meeting_type": "E",
+        "required_for": {
+            "CE": 1,
+            "EE": 1,
+            "ME": 1
+        }
+    },
+    {
+        "_id": "MATH122",
+        "course_title": "Pre-Calculus II",
+        "meeting_type": "E",
+        "option_for": {
+            "BA": 2,
+            "MIS": 2,
+            "CS": 2
+        },
+        "alternative": ["MATH142"],
+        "pre-requisites": ["MATH121"]
+    },
+    {
+        "_id": "MATH142",
+        "course_title": "Calculus II",
+        "meeting_type": "E",
+        "option_for": {
+            "BA": 2,
+            "MIS": 2,
+            "CS": 2
+        },
+        "alternative": ["MATH122"],
+        "pre-requisites": ["MATH141"]
+    },
+    {
+        "_id": "BUSA161",
+        "course_title": "Foundations of Design and Entrepreneurship I",
+        "meeting_type": "A",
+        "required_for": {
+            "BA": 1,
+            "MIS": 1,
+            "CS": 1,
+            "CE": 1,
+            "EE": 1,
+            "ME": 1
+        }
+    },
+    {
+        "_id": "BUSA162",
+        "course_title": "Foundations of Design and Entrepreneurship II",
+        "meeting_type": "A",
+        "required_for": {
+            "BA": 2,
+            "MIS": 2,
+            "CS": 2,
+            "CE": 2,
+            "EE": 2,
+            "ME": 2
+        },
+        "pre-requisites": ["BUSA161"]
+    },
+    {
+        "_id": "CS111",
+        "course_title": "Introduction to Computing and Information Systems",
+        "meeting_type": "B",
+        "required_for": {
+            "BA": 1,
+            "MIS": 1,
+            "CS": 1
+        }
+    },
+    {
+        "_id": "ENGR112",
+        "course_title": "Introduction to Engineering",
+        "meeting_type": "F",
+        "required_for": {
+            "CE": 1,
+            "EE": 1,
+            "ME": 1
+        }
+    },
+    { 
+        "_id": "SOAN111",
+        "course_title": "Leadership Seminar I: What Makes a Good Leader?",
+        "meeting_type": "D",
+        "required_for": {
+            "BA": 2,
+            "MIS": 2,
+            "CS": 2,
+            "CE": 2,
+            "EE": 2,
+            "ME": 2
+        },
+        "pre-requisites": ["AS111", "ENGL112"]
+    },
+    { 
+        "_id": "ENGL113",
+        "course_title": "Text and Meaning",
+        "meeting_type": "A",
+        "required_for": {
+            "BA": 2,
+            "MIS": 2,
+            "CS": 2,
+            "CE": 4,
+            "EE": 4,
+            "ME": 4
+        }
+    },
+    { 
+        "_id": "SOMETHING",
+        "course_title": "Organizational Behavior",
+        "meeting_type": "A",
+        "required_for": {
+            "BA": 2
+        },
+        "elective_for": {
+            "MIS": "M"
+        }
+    },
+    { 
+        "_id": "CS212",
+        "course_title": "Computer Programming for CS",
+        "meeting_type": "B",
+        "required_for": {
+            "MIS": 2,
+            "CS": 2
+        }
+    },
+    { 
+        "_id": "CS112",
+        "course_title": "Computer Programming for Engineering",
+        "meeting_type": "B",
+        "required_for": {
+            "CE": 2,
+            "EE": 2,
+            "ME": 2
+        }
+    },
+    { 
+        "_id": "MATH211",
+        "course_title": "Multivariable Calculus and Linear Algebra",
+        "meeting_type": "B",
+        "required_for": {
+            "CE": 2,
+            "EE": 2,
+            "ME": 2
+        },
+        "option_for": {
+            "CS": 4
+        },
+        "alternative": ["MATH212", "MATH233"],
+        "pre-requisites": [["MATH161", "MATH142", "APPLIED CALCULUS"]]
+    },
+    { 
+        "_id": "SC112",
+        "course_title": "Physics I: Mechanics",
+        "meeting_type": "G",
+        "required_for": {
+            "CE": 2,
+            "EE": 2,
+            "ME": 2
+        },
+        "pre-requisites": ["MATH161"]
+    },
+    {
+        "comment": "YEAR ONE REQUIREMENTS END HERE"
+    }
+]

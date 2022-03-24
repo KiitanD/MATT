@@ -1,0 +1,27 @@
+[
+    {
+        "_id": "AUL0001",
+        "name": "Enyonam Kudonoo",
+        "department": "BUSA"
+    },
+    {
+        "_id": "AUL0002",
+        "name": "Afua Amoako Addo",
+        "department": "BUSA"
+    },
+    {
+        "_id": "AUL0003",
+        "name": "Nathan Nyarko Amanquah",
+        "department": "ENGR"
+    },
+    {
+        "_id": "AUL0004",
+        "name": "Dennis Owusu Asamoah",
+        "department": "CSIS"
+    },
+    {
+        "_id": "AUL0005",
+        "name": "Joseph Oduro-Frimpong",
+        "department": "HSS"
+    }
+]
