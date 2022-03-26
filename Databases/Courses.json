@@ -339,7 +339,7 @@
         "pre-requisites": [["MATH142", "MATH161"], ["CS212", "CS112"]]
     },
     { 
-        "_id": "ME411",
+        "_id": "ME212",
         "course_title": "Thermodynamics",
         "meeting_type": "G",
         "required_for": {
@@ -635,9 +635,9 @@
         "course_title": "Research Methods",
         "meeting_type": "B",
         "required_for": {
-            "BA": 6,
-            "MIS": 6,
-            "CS": 6
+            "BA": 5,
+            "MIS": 5,
+            "CS": 5
         },
         "pre-requisites": ["MATH222"]
     },
@@ -751,18 +751,6 @@
         }
     },
     { 
-        "_id": "BUSA100",
-        "course_title": "Principles of Economics",
-        "meeting_type": "A",
-        "required_for": {
-            "CS": 6,
-            "CE": 6,
-            "EE": 6,
-            "ME": 6
-        },
-        "pre-requisites": [["MATH141", "MATH122"]]
-    },
-    { 
         "_id": "CE322",
         "course_title": "Digital Systems Design",
         "meeting_type": "F",
@@ -807,6 +795,165 @@
         },
         "pre-requisites": ["SC112", "ME311"]
     },
-    {"comment":"YEAR THREE REQUIREMENTS END HERE"}
+    {"comment":"YEAR THREE REQUIREMENTS END HERE"},
+    { 
+        "_id": "BUSA422",
+        "course_title": "Corporate Finance",
+        "meeting_type": "A",
+        "required_for": {
+            "BA": 7
+        },
+        "elective_for": {
+            "MIS": "M"
+        },
+        "pre-requisites": ["BUSA321"]
+    },
+    { 
+        "_id": "CS442",
+        "course_title": "E-Commerce",
+        "meeting_type": "B",
+        "required_for": {
+            "MIS": 7
+        },
+        "elective_for": {
+            "CS": "M"
+        },
+        "pre-requisites": ["CS323", "CS341"] 
+    },
+    { 
+        "_id": "CS435",
+        "course_title": "Operating Systems",
+        "meeting_type": "B",
+        "required_for": {
+            "CS": 7,
+            "CE": 7
+        },
+        "elective_for": {
+            "MIS": "M"
+        },
+        "pre-requisites": [["CS112", "CS212"], ["CS221", "CS222"]]
+    },
+    { 
+        "_id": "BUSA402",
+        "course_title": "Business Law",
+        "meeting_type": "A",
+        "required_for": {
+            "BA": 7
+        },
+        "elective_for": {
+            "MIS": "M"
+        }
+    },
+    { 
+        "_id": "IS451",
+        "course_title": "Information and Systems Security",
+        "meeting_type": "B",
+        "required_for": {
+            "MIS": 7
+        },
+        "elective_for": {
+            "CS": "M",
+            "CE": "M"
+        },
+        "pre-requisites": ["CS221", ["CS212", "CS112"]]
+    },
+    { 
+        "_id": "CS314",
+        "course_title": "Human Computer Interaction",
+        "meeting_type": "B",
+        "required_for": {
+            "CS": 7,
+            "CE": 7
+        },
+        "elective_for": {
+            "MIS": "M"
+        },
+        "pre-requisites": [["CS112", "CS212"], ["CS221", "CS222"]]
+    },
+    { 
+        "_id": "EE451",
+        "course_title": "Power Engineering",
+        "meeting_type": "",
+        "required_for": {
+            "EE": 7
+        },
+        "elective_for": {
+            "ME": "M"
+        },
+        "pre-requisites": ["EE222", "EE242"]
+    },
+    { 
+        "_id": "CE451",
+        "course_title": "Embedded Systems",
+        "meeting_type": "B",
+        "required_for": {
+            "CE": 7,
+            "EE": 7
+        },
+        "elective_for": {
+            "ME": "M",
+            "CS": "M"
+        },
+        "pre-requisites": [["CS112", "CS212"], ["CE322", "CS331"]]
+    },
+    { 
+        "_id": "ME421",
+        "course_title": "Thermal Systems and Applications",
+        "meeting_type": "G",
+        "required_for": {
+            "ME": 7,
+            "CE": 7
+        },
+        "elective_for": {
+            "EE": "M"
+        },
+        "pre-requisites": ["ME212"]
+    },
+    { 
+        "_id": "BUSA405",
+        "course_title": "Competitive Strategy",
+        "meeting_type": "A",
+        "required_for": {
+            "BA": 8,
+            "MIS": 8
+        },
+        "elective_for": {
+            "MIS": "M"
+        },
+        "pre-requisites": [["BUSA220", "BUSA224"], "ECON102"]
+    },
+    { 
+        "_id": "ENG413",
+        "course_title": "Project Management and Professional Practice",
+        "meeting_type": "B",
+        "required_for": {
+            "CE": 8,
+            "EE": 8,
+            "ME": 8
+        },
+        "pre-requisites": [["ECON101", "BUSA100"]]
+    },
+    { 
+        "_id": "ME441",
+        "course_title": "Manufacturing Processes",
+        "meeting_type": "G",
+        "required_for": {
+            "ME": 8
+        }
+    },
+    { 
+        "_id": "ENGR401",
+        "course_title": "Senior Project and Seminar",
+        "meeting_type": "D",
+        "required_for": {
+            "CE": 8,
+            "EE": 8,
+            "ME": 8
+        },
+        "elective_for": {
+            "MIS": "M"
+        }
+    }
+    {"comment": "YEAR FOUR0 REQUIREMENTS END HERE"}
 ]
 
