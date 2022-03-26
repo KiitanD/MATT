@@ -213,5 +213,600 @@
     },
     {
         "comment": "YEAR ONE REQUIREMENTS END HERE"
-    }
+    },
+    { 
+        "_id": "SOAN221",
+        "course_title": "Leadership Seminar II: Rights, Ethics and Rule of Law",
+        "meeting_type": "D",
+        "required_for": {
+            "BA": 3,
+            "MIS": 3,
+            "CS": 3,
+            "CE": 3,
+            "EE": 3,
+            "ME": 3
+        },
+        "pre-requisites": ["SOAN111"]
+    },
+    { 
+        "_id": "MATH222",
+        "course_title": "Statistics",
+        "meeting_type": "B",
+        "required_for": {
+            "BA": 3,
+            "MIS": 3,
+            "CS": 3
+        },
+        "pre-requisites": [["MATH122", "MATH141"]]
+    },
+    { 
+        "_id": "ECON101",
+        "course_title": "Microeconomics",
+        "meeting_type": "A",
+        "required_for": {
+            "BA": 3,
+            "MIS": 3
+        },
+        "option_for": {
+            "CS": 3
+        },
+        "alternative": ["BUSA100"],
+        "pre-requisites": [["MATH122", "MATH141"]]
+    },
+    { 
+        "_id": "BUSA100",
+        "course_title": "Principles of Economics",
+        "meeting_type": "A",
+        "required_for": {
+            "CE": 6,
+            "EE": 6,
+            "ME": 6
+        },
+        "option_for": {
+            "CS": 6
+        },
+        "alternative": ["ECON101"],
+        "pre-requisites": [["MATH122", "MATH141"]]
+    },
+    { 
+        "_id": "BUSA210",
+        "course_title": "Financial Accounting",
+        "meeting_type": "A",
+        "required_for": {
+            "BA": 3
+        },
+        "elective_for": {
+            "MIS": "M"
+        }
+    },
+    { 
+        "_id": "CS221",
+        "course_title": "Discrete Structures and Theory",
+        "meeting_type": "B",
+        "required_for": {
+            "CS": 3,
+            "MIS": 3
+        },
+        "elective_for": {
+            "CE": "M"
+        },
+        "pre-requisites": [["MATH122", "MATH141"],["CS111", "CS212", "CS112"]]
+    },
+    { 
+        "_id": "CS222",
+        "course_title": "Data Structures and Algorithms",
+        "meeting_type": "B",
+        "required_for": {
+            "CS": 3,
+            "CE": 3
+        },
+        "elective_for": {
+            "MIS": "M"
+        },
+        "pre-requisites": [["CS212", "CS112"]]
+    },
+    { 
+        "_id": "SC113",
+        "course_title": "Physics II: Electromagnetism",
+        "meeting_type": "G",
+        "required_for": {
+            "CE": 3,
+            "EE": 3,
+            "ME": 3
+        },
+        "pre-requisites": ["SC112"]
+    },
+    { 
+        "_id": "MATH152",
+        "course_title": "Statistics for Engineering",
+        "meeting_type": "B",
+        "required_for": {
+            "CE": 3,
+            "EE": 3,
+            "ME": 3
+        },
+        "pre-requisites": ["MATH161"]
+    },
+    { 
+        "_id": "CE122",
+        "course_title": "Applied Programming for Engineers",
+        "meeting_type": "B",
+        "required_for": {
+            "CE": 3,
+            "EE": 3,
+            "ME": 3
+        },
+        "pre-requisites": [["MATH142", "MATH161"], ["CS212", "CS112"]]
+    },
+    { 
+        "_id": "ME411",
+        "course_title": "Thermodynamics",
+        "meeting_type": "G",
+        "required_for": {
+            "EE": 3,
+            "ME": 3
+        },
+        "elective_for": {
+            "CE": "M"
+        },
+        "pre-requisites": ["SC112"]
+    },
+    { 
+        "_id": "SOAN311",
+        "course_title": "Leadership Seminar III: The Economic Organization of a Good Society",
+        "meeting_type": "D",
+        "required_for": {
+            "BA": 4,
+            "MIS": 4,
+            "CS": 4,
+            "CE": 4,
+            "EE": 4,
+            "ME": 4
+        },
+        "pre-requisites": ["SOAN221"]
+    },
+    { 
+        "_id": "MATH233",
+        "course_title": "Quantitative Methods",
+        "meeting_type": "B",
+        "required_for": {
+            "BA": 4,
+            "MIS": 4
+        },
+        "option_for": {
+            "CS": 4
+        },
+        "alternative": ["MATH211", "MATH212"],
+        "pre-requisites": [["MATH142", "MATH122"], ["MATH222", "MATH152"]]
+    },
+    { 
+        "_id": "MATH212",
+        "course_title": "Linear Algebra",
+        "meeting_type": "B",
+        "option_for": {
+            "CS": 4
+        },
+        "alternative": ["MATH211", "MATH233"],
+        "pre-requisites": [["MATH142", "MATH122"], ["MATH222", "MATH152"]]
+    },
+    { 
+        "_id": "ECON102",
+        "course_title": "Macroeconomics",
+        "meeting_type": "A",
+        "required_for": {
+            "BA": 4,
+            "MIS": 4
+        },
+        "pre-requisites": [["MATH141", "MATH122"]]
+    },
+    { 
+        "_id": "CS313",
+        "course_title": "Intermediate Computer Programming",
+        "meeting_type": "B",
+        "required_for": {
+            "CS": 4
+        },
+        "elective_for": {
+            "CE": "M",
+            "EE": "N",
+            "ME": "N",
+            "MIS": "M"
+        },
+        "pre-requisites": [["CS112", "CS212"]]
+    },
+    { 
+        "_id": "BUSA341",
+        "course_title": "Marketing",
+        "meeting_type": "A",
+        "required_for": {
+            "BA": 4
+        },
+        "elective_for": {
+            "MIS": "M"
+        },
+        "pre-requisites": ["ECON101"]
+    },
+    { 
+        "_id": "CS323",
+        "course_title": "Database Systems",
+        "meeting_type": "B",
+        "required_for": {
+            "CS": 4,
+            "MIS": 4
+        },
+        "elective_for": {
+            "CE": "M"
+        },
+        "pre-requisites": [["CS112", "CS212"], ["CS221", "CS222", "CE322"]]
+    },
+    { 
+        "_id": "BUSA220",
+        "course_title": "Introduction to Finance",
+        "meeting_type": "A",
+        "required_for": {
+            "BA": 4
+        },
+        "pre-requisites": ["BUSA210"]
+    },
+    { 
+        "_id": "BUSA224",
+        "course_title": "Finance for Non-Finance Managers",
+        "meeting_type": "A",
+        "required_for": {
+            "CS": 4,
+            "MIS": 4
+        },
+        "pre-requisites": [["MATH141", "MATH122"]]
+    },
+    { 
+        "_id": "EE222",
+        "course_title": "Circuits and Electronics",
+        "meeting_type": "G",
+        "required_for": {
+            "CE": 4,
+            "EE": 4,
+            "ME": 4
+        },
+        "pre-requisites": ["SC113", "MATH211"]
+    },
+    { 
+        "_id": "QQQ",
+        "course_title": "Materials Science and Chemistry",
+        "meeting_type": "G",
+        "required_for": {
+            "CE": 4,
+            "EE": 4,
+            "ME": 4
+        },
+        "pre-requisites": []
+    },
+    { 
+        "_id": "MATH251",
+        "course_title": "Differential Equations and Numerical Methods",
+        "meeting_type": "B",
+        "required_for": {
+            "BA": 4,
+            "MIS": 4
+        },
+        "pre-requisites": ["MATH211", ["CE122", "CS212"]]
+    },
+    {
+        "comment": "YEAR TWO REQUIREMENTS END HERE"
+    },
+    { 
+        "_id": "BUSA304",
+        "course_title": "Operations Management",
+        "meeting_type": "A",
+        "required_for": {
+            "BA": 5
+        },
+        "elective_for": {
+            "MIS": "M"
+        },
+        "pre-requisites": [["MATH233", "MATH152"]]
+    },
+    { 
+        "_id": "BUSA321",
+        "course_title": "Investments",
+        "meeting_type": "A",
+        "required_for": {
+            "BA": 5
+        },
+        "elective_for": {
+            "MIS": "M"
+        },
+    "pre-requisites": [["BUSA220", "BUSA224"]]
+    },
+    { 
+        "_id": "CS341",
+        "course_title": "Web Technologies",
+        "meeting_type": "B",
+        "required_for": {
+            "CS": 5,
+            "MIS": 5
+        },
+        "elective_for": {
+            "CE": "M"
+        },
+        "pre-requisites": [["CS112", "CS212"]]
+    },
+    { 
+        "_id": "QQ",
+        "course_title": "Systems Analysis and Design",
+        "meeting_type": "?",
+        "required_for": {
+            "MIS": 5
+        },
+        "elective_for": {
+            "CS": "M",
+            "CE": "M"
+        },
+        "pre-requisites": []
+    },
+    { 
+        "_id": "CS331",
+        "course_title": "Computer Organization and Architecture",
+        "meeting_type": "B",
+        "required_for": {
+            "CS": 5,
+            "CE": 5
+        },
+        "elective_for": {
+            "MIS": "M"
+        },
+        "pre-requisites": [["CS112", "CS212"]]
+    },
+    { 
+        "_id": "EE242",
+        "course_title": "Introduction to Electrical Machines and Power Electronics",
+        "meeting_type": "B",
+        "required_for": {
+            "EE": 5,
+            "ME": 5
+        },
+        "elective_for": {
+            "CE": "M"
+        },
+        "pre-requisites": ["SC112", "SC113", "EE222"]
+    },
+    { 
+        "_id": "ENGR311",
+        "course_title": "System Dynamics",
+        "meeting_type": "F",
+        "required_for": {
+            "CE": 5,
+            "EE": 5,
+            "ME": 5
+        },
+        "pre-requisites": ["EE222", "MATH211", "CE122"]
+    },
+    { 
+        "_id": "EE321",
+        "course_title": "Communication Systems",
+        "meeting_type": "F",
+        "required_for": {
+            "CE": 5,
+            "EE": 5
+        },
+        "elective_for": {
+            "ME": "M"
+        },
+        "pre-requisites": ["SC113", "EE222"]
+    },
+    { 
+        "_id": "ME311",
+        "course_title": "Mechanics of Materials",
+        "meeting_type": "G",
+        "required_for": {
+            "ME": 5
+        },
+        "elective_for": {
+            "EE": "M"
+        },
+        "pre-requisites": ["SC112", "ENGR311", "QQQ"]
+    },
+    { 
+        "_id": "SOAN411",
+        "course_title": "Leadership Seminar IV",
+        "meeting_type": "C",
+        "required_for": {
+            "BA": 6,
+            "MIS": 6,
+            "CS": 6,
+            "CE": 5,
+            "EE": 5,
+            "ME": 5
+        },
+        "pre-requisites": ["SOAN311"]
+    },
+    { 
+        "_id": "ENGR212",
+        "course_title": "Instrumentation for Engineering",
+        "meeting_type": "",
+        "required_for": {
+            "EE": 5,
+            "CE": 5,
+            "ME": 5
+        },
+        "pre-requisites":["SC113", "MATH152"]
+    },
+    { 
+        "_id": "SOAN325",
+        "course_title": "Research Methods",
+        "meeting_type": "B",
+        "required_for": {
+            "BA": 6,
+            "MIS": 6,
+            "CS": 6
+        },
+        "pre-requisites": ["MATH222"]
+    },
+    { 
+        "_id": "BUSA311",
+        "course_title": "Managerial Accounting",
+        "meeting_type": "A",
+        "required_for": {
+            "BA": 6,
+            "MIS": 6
+        },
+        "pre-requisites": [["BUSA220", "BUSA224"]]
+    },
+    { 
+        "_id": "CS415",
+        "course_title": "Software Engineering",
+        "meeting_type": "B",
+        "required_for": {
+            "CS": 6
+        },
+        "elective_for": {
+            "CE": "M",
+            "MIS": "M"
+        },
+        "pre-requisites": [["CS112", "CS212"], ["CS341", "CS313", "CS222"]]
+    },
+    { 
+        "_id": "BUSA350",
+        "course_title": "International Trade & Policy",
+        "meeting_type": "A",
+        "required_for": {
+            "BA": 6
+        },
+        "elective_for": {
+            "MIS": "M"
+        },
+        "pre-requisites": ["MATH121", "ECON101", "ECON102", "MATH222"]
+    },
+    { 
+        "_id": "IS331",
+        "course_title": "IT Infrastructure",
+        "meeting_type": "B",
+        "required_for": {
+            "MIS": 6
+        },
+        "pre-requisites": [["CS112", "CS212"]]
+    },
+    { 
+        "_id": "IS332",
+        "course_title": "Systems Administration Lab",
+        "meeting_type": "H",
+        "required_for": {
+            "MIS": 6
+        },
+        "pre-requisites": [["CS112", "CS212"]]
+    },
+    { 
+        "_id": "IS361",
+        "course_title": "IS Project Management",
+        "meeting_type": "C",
+        "required_for": {
+            "MIS": 6
+        }
+    },
+    { 
+        "_id": "CS456",
+        "course_title": "Algorithm Design and Analysis",
+        "meeting_type": "B",
+        "required_for": {
+            "CS": 6
+        },
+        "elective_for": {
+            "CE": "M",
+            "MIS": "M"
+        }
+    },
+    { 
+        "_id": "CS432",
+        "course_title": "Networks and Data Communication",
+        "meeting_type": "B",
+        "required_for": {
+            "CS": 8,
+            "CE": 6
+        },
+        "elective_for": {
+            "MIS": "M",
+            "EE": "M",
+            "ME": "M"
+        },
+        "pre-requisites": [["CS112", "CS212"]]
+    },
+    { 
+        "_id": "ENGR312",
+        "course_title": "Control Systems",
+        "meeting_type": "G",
+        "required_for": {
+            "CE": 6,
+            "EE": 6,
+            "ME": 6
+        },
+        "pre-requisites": ["ENGR311"]
+    },
+    { 
+        "_id": "ENGR300",
+        "course_title": "Year 3 Group Project and Seminar",
+        "meeting_type": "",
+        "required_for": {
+            "CE": 6,
+            "EE": 6,
+            "ME": 6
+        }
+    },
+    { 
+        "_id": "BUSA100",
+        "course_title": "Principles of Economics",
+        "meeting_type": "A",
+        "required_for": {
+            "CS": 6,
+            "CE": 6,
+            "EE": 6,
+            "ME": 6
+        },
+        "pre-requisites": [["MATH141", "MATH122"]]
+    },
+    { 
+        "_id": "CE322",
+        "course_title": "Digital Systems Design",
+        "meeting_type": "F",
+        "required_for": {
+            "CE": 6,
+            "EE": 6
+        },
+        "elective_for": {
+            "ME": "M"
+        },
+        "pre-requisites": ["EE222"]
+    },
+    { 
+        "_id": "ME431",
+        "course_title": "Fluid Mechanics",
+        "meeting_type": "G", 
+        "required_for": {
+            "ME": 6
+        } 
+    },
+    { 
+        "_id": "EE342",
+        "course_title": "Advanced Electrical Machines and Power Electronics",
+        "meeting_type": "F",
+        "required_for": {
+            "EE": 6
+        },
+        "elective_for": {
+            "ME": "M"
+        },
+        "pre-requisites": ["EE242"]
+    },
+    { 
+        "_id": "ME301",
+        "course_title": "Mechanical Machine Design",
+        "meeting_type": "G",
+        "required_for": {
+            "ME": 6
+        },
+        "elective_for": {
+            "EE": "M"
+        },
+        "pre-requisites": ["SC112", "ME311"]
+    },
+    {"comment":"YEAR THREE REQUIREMENTS END HERE"}
 ]
+
