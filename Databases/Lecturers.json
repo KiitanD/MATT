@@ -6,8 +6,8 @@
     },
     {
         "_id": "AUL0002",
-        "name": "Afua Amoako Addo",
-        "department": "BUSA"
+        "name": "Alimsiwen Ayaawan",
+        "department": "HSS"
     },
     {
         "_id": "AUL0003",
@@ -22,6 +22,381 @@
     {
         "_id": "AUL0005",
         "name": "Joseph Oduro-Frimpong",
+        "department": "HSS"
+    },
+    {
+        "_id": "AUL0006",
+        "name": "Nana Sefaah Kyei-Boadu",
+        "department": "BUSA"
+    },
+    {
+        "_id": "AUL0007",
+        "name": "Acheampong Antwi Afari",
+        "department": "ENGR"
+    },
+    {
+        "_id": "AUL0008",
+        "name": "Alan Bukusi",
+        "department": "HSS"
+    },
+    {
+        "_id": "AUL0009",
+        "name": "Angela Azumah Alu",
+        "department": "BUSA"
+    },
+    {
+        "_id": "AUL0010",
+        "name": "Attlee Gamundani",
+        "department": "CSIS"
+    },
+    {
+        "_id": "AUL0011",
+        "name": "Anthony Essel-Anderson",
+        "department": "BUSA"
+    },
+    {
+        "_id": "AUL0012",
+        "name": "Joseph Mensah",
+        "department": "CSIS"
+    },
+    {
+        "_id": "AUL0013",
+        "name": "Stephen Emmanuel Armah",
+        "department": "BUSA"
+    },
+    {
+        "_id": "AUL0014",
+        "name": "Anthony Spio",
+        "department": "BUSA"
+    },
+    {
+        "_id": "AUL0015",
+        "name": "Sena Agbodjah Agyepong",
+        "department": "BUSA"
+    },
+    {
+        "_id": "AUL0016",
+        "name": "Millicent Adjei",
+        "department": "HSS"
+    },
+    {
+        "_id": "AUL0017",
+        "name": "Edgar Francis Cooke",
+        "department": "BUSA"
+    },
+    {
+        "_id": "AUL0018",
+        "name": "Edmund Ankomah",
+        "department": "HSS"
+    },
+    {
+        "_id": "AUL0019",
+        "name": "David Amatey Sampah",
+        "department": "CSIS"
+    },
+    {
+        "_id": "AUL0020",
+        "name": "Nicholas Tali",
+        "department": "ENGR"
+    },
+    {
+        "_id": "AUL0021",
+        "name": "Nathalie Blandine N'Guessan",
+        "department": "HSS"
+    },
+    {
+        "_id": "AUL0022",
+        "name": "Elena Victoria Rosca",
+        "department": "ENGR"
+    },
+    {
+        "_id": "AUL0023",
+        "name": "Ayawoa Dagbovie",
+        "department": "CSIS"
+    },
+    {
+        "_id": "AUL0024",
+        "name": "Danyuo Yiporo",
+        "department": "BUSA"
+    },
+    {
+        "_id": "AUL0025",
+        "name": "Justice Kwame Appati",
+        "department": "CSIS"
+    },
+    {
+        "_id": "AUL0026",
+        "name": "Francis Gatsi",
+        "department": "CSIS"
+    },
+    {
+        "_id": "AUL0027",
+        "name": "Patrick Dwomfuor",
+        "department": "ENGR"
+    },
+    {
+        "_id": "AUL0028",
+        "name": "Leonard Baer",
+        "department": "HSS"
+    },
+    {
+        "_id": "AUL0029",
+        "name": "David Hutchful",
+        "department": "CSIS"
+    },
+    {
+        "_id": "AUL0030",
+        "name": "Heather Beem",
+        "department": "ENGR"
+    },
+    {
+        "_id": "AUL0031",
+        "name": "David Ebo Adjepon-Yamoah",
+        "department": "CSIS"
+    },
+    {
+        "_id": "AUL0032",
+        "name": "Michael Effah Asamoah",
+        "department": "BUSA"
+    },
+    {
+        "_id": "AUL0033",
+        "name": "Mensimah Thompson Kwaffo",
+        "department": "HSIS"
+    },
+    {
+        "_id": "AUL0034",
+        "name": "Miriam Abade-Abugre",
+        "department": "ENGR"
+    },
+    {
+        "_id": "AUL0035",
+        "name": "Prince Baah",
+        "department": "BUSA"
+    },
+    {
+        "_id": "AUL0036",
+        "name": "Awingot Richard Akparibo",
+        "department": "ENGR"
+    },
+    {
+        "_id": "AUL0037",
+        "name": "Sena Agbodjah Agyepong",
+        "department": "BUSA"
+    },
+    {
+        "_id": "AUL0038",
+        "name": "Aurelia Ayisi",
+        "department": "HSS"
+    },
+    {
+        "_id": "AUL0039",
+        "name": "Bright Tetteh",
+        "department": "ENGR"
+    },
+    {
+        "_id": "AUL0040",
+        "name": "Daniel Kwame Acquaah",
+        "department": "HSS"
+    },
+    {
+        "_id": "AUL0041",
+        "name": "Ebenezer Obiri Addo",
+        "department": "HSS"
+    },
+    {
+        "_id": "AUL0042",
+        "name": "Emilia Ainosoon",
+        "department": "BUSA"
+    },
+    {
+        "_id": "AUL0043",
+        "name": "Enock Opoku",
+        "department": "CSIS"
+    },
+    {
+        "_id": "AUL0044",
+        "name": "Eric Ocran",
+        "department": "CSIS"
+    },
+    {
+        "_id": "AUL0045",
+        "name": "Esther Afoley Larea",
+        "department": "HSS"
+    },
+    {
+        "_id": "AUL0046",
+        "name": "George Francois",
+        "department": "HSS"
+    },
+    {
+        "_id": "AUL0047",
+        "name": "Jewel Thompson",
+        "department": "BUSA"
+    },
+    {
+        "_id": "AUL0048",
+        "name": "Joana Kwabena-Adade",
+        "department": "HSS"
+    },
+    {
+        "_id": "AUL0049",
+        "name": "Jonas Ecke",
+        "department": "HSS"
+    },
+    {
+        "_id": "AUL0050",
+        "name": "Joseph Dadzie",
+        "department": "CSIS"
+    },
+    {
+        "_id": "AUL0051",
+        "name": "Josephine Djan",
+        "department": "BUSA"
+    },
+    {
+        "_id": "AUL0052",
+        "name": "Daniel Kwame Acquaah",
+        "department": "HSS"
+    },
+    {
+        "_id": "AUL0053",
+        "name": "Judith Ainsworth",
+        "department": "HSS"
+    },
+    {
+        "_id": "AUL0054",
+        "name": "Daniel Kwame Acquaah",
+        "department": "HSS"
+    },
+    {
+        "_id": "AUL0055",
+        "name": "Kenneth Ghartey",
+        "department": "BUSA"
+    },
+    {
+        "_id": "AUL0056",
+        "name": "Kofi Adu-Labi",
+        "department": "ENGR"
+    },
+    {
+        "_id": "AUL0057",
+        "name": "Kojo Opoku Aidoo",
+        "department": "HSS"
+    },
+    {
+        "_id": "AUL0058",
+        "name": "Kwabena Ampadu Bamfo",
+        "department": "CSIS"
+    },
+    {
+        "_id": "AUL0059",
+        "name": "Kwasu David Tembo",
+        "department": "HSS"
+    },
+    {
+        "_id": "AUL0060",
+        "name": "Laila Al-Alwan",
+        "department": "HSS"
+    },
+    {
+        "_id": "AUL0061",
+        "name": "Millicent Awuku",
+        "department": "BUSA"
+    },
+    {
+        "_id": "AUL0062",
+        "name": "Martin Adane",
+        "department": "CSIS"
+    },
+    {
+        "_id": "AUL0063",
+        "name": "Naa Doamekpor",
+        "department": "BUSA"
+    },
+    {
+        "_id": "AUL0064",
+        "name": "Natalie Fordwor",
+        "department": "HSS"
+    },
+    {
+        "_id": "AUL0065",
+        "name": "Oduetse Matsebe",
+        "department": "ENGR"
+    },
+    {
+        "_id": "AUL0066",
+        "name": "Panayotis Giannakouros",
+        "department": "HSIS"
+    },
+    {
+        "_id": "AUL0067",
+        "name": "Philip Asare",
+        "department": "BUSA"
+    },
+    {
+        "_id": "AUL0068",
+        "name": "Philip Dela Zumanu",
+        "department": "HSS"
+    },
+    {
+        "_id": "AUL0069",
+        "name": "Prince Aning",
+        "department": "BUSA"
+    },
+    {
+        "_id": "AUL0070",
+        "name": "Robert Sowah",
+        "department": "CSIS"
+    },
+    {
+        "_id": "AUL0071",
+        "name": "Shaddrack Nusenu",
+        "department": "ENGR"
+    },
+    {
+        "_id": "AUL0072",
+        "name": "Shani Collins Achille",
+        "department": "HSS"
+    },
+    {
+        "_id": "AUL0073",
+        "name": "Simon Bertrand",
+        "department": "HSS"
+    },
+    {
+        "_id": "AUL0074",
+        "name": "Stephane Nwolley",
+        "department": "CSIS"
+    },
+    {
+        "_id": "AUL0075",
+        "name": "Stephen Armah",
+        "department": "ENGR"
+    },
+    {
+        "_id": "AUL0076",
+        "name": "Takako Mino",
+        "department": "HSS"
+    },
+    {
+        "_id": "AUL0077",
+        "name": "Theodora Aryee",
+        "department": "BUSA"
+    },
+    {
+        "_id": "AUL0078",
+        "name": "Tom Wanjekeche",
+        "department": "ENGR"
+    },
+    {
+        "_id": "AUL0079",
+        "name": "Umut Tosun",
+        "department": "CSIS"
+    },
+    {
+        "_id": "AUL0080",
+        "name": "Yawa Agbemabiese",
         "department": "HSS"
     }
 ]
