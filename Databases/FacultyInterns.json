@@ -2,11 +2,311 @@
     {
         "_id": "AUF0001",
         "name": "Caroline Serwaa Bempong",
-        "department": "HSS"
+        "department": "BUSA"
     },
     {
         "_id": "AUF0002",
-        "name": "Emilia Ainosoon",
+        "name": "Afua Amoakoa Addo",
         "department": "BUSA"
+    },
+    {
+        "_id": "AUF0003",
+        "name": "Albert Akatom Bensusan",
+        "department": "BUSA"
+    },
+    {
+        "_id": "AUF0003",
+        "name": "Jason Apaw Nkansah",
+        "department": "BUSA"
+    },
+    {
+        "_id": "AUF0004",
+        "name": "Yayra Azaglo",
+        "department": "BUSA"
+    },
+    {
+        "_id": "AUF0005",
+        "name": "Francis Ameyaw",
+        "department": "BUSA"
+    },
+    {
+        "_id": "AUF0006",
+        "name": "Daniel Mensah",
+        "department": "BUSA"
+    },
+    {
+        "_id": "AUF0007",
+        "name": "Derry Bernard Wanye",
+        "department": "BUSA"
+    },
+    {
+        "_id": "AUF0008",
+        "name": "Yaa Fremah Sarkodie",
+        "department": "BUSA"
+    },
+    {
+        "_id": "AUF0009",
+        "name": "Christopher Obiorah",
+        "department": "BUSA"
+    },
+    {
+        "_id": "AUF0010",
+        "name": "Nicole Sheila Amoo-Yankey",
+        "department": "BUSA"
+    },
+    {
+        "_id": "AUF0011",
+        "name": "Daniel Mensah",
+        "department": "BUSA"
+    },
+    {
+        "_id": "AUF0012",
+        "name": "Queen Latifa Lampo",
+        "department": "BUSA"
+    },
+    {
+        "_id": "AUF0013",
+        "name": "Dominic Ayiquaye",
+        "department": "BUSA"
+    },
+    {
+        "_id": "AUF0014",
+        "name": "Elvis Kwaku Amponsah",
+        "department": "BUSA"
+    },
+    {
+        "_id": "AUF0015",
+        "name": "Samuel Fordjuor",
+        "department": "BUSA"
+    },
+    {
+        "_id": "AUF0016",
+        "name": "Francis Aweenagua",
+        "department": "ENGR"
+    },
+    {
+        "_id": "AUF0017",
+        "name": "Kwabena Buamono Aboagye-Otchere",
+        "department": "CSIS"
+    },
+    {
+        "_id": "AUF0018",
+        "name": "Ian Joseph Ayitey Akotey",
+        "department": "CSIS"
+    },
+    {
+        "_id": "AUF0019",
+        "name": "Nana Ama Boadziwaa Atombo-Sackey",
+        "department": "CSIS"
+    },
+    {
+        "_id": "AUF0020",
+        "name": "Albert Hodo",
+        "department": "CSIS"
+    },
+    {
+        "_id": "AUF0021",
+        "name": "Goodie Blake Akorli Dawson",
+        "department": "CSIS"
+    },
+    {
+        "_id": "AUF0022",
+    "name": "Owusu-Banahene Osei",
+        "department": "CSIS"
+    },
+    {
+        "_id": "AUF0023",
+        "name": "Daniel Nettey",
+        "department": "CSIS"
+    },
+    {
+        "_id": "AUF0025",
+        "name": "Yvonne Dewortor",
+        "department": "CSIS"
+    },
+    {
+        "_id": "AUF0026",
+        "name": "Frederick Plange",
+        "department": "CSIS"
+    },
+    {
+        "_id": "AUF0027",
+        "name": "Simon Suuk",
+        "department": "CSIS"
+    },
+    {
+        "_id": "AUF0028",
+        "name": "Anna Agyirwa Poku",
+        "department": "CSIS"
+    },
+    {
+        "_id": "AUF0029",
+        "name": "Georgette Asiedu",
+        "department": "CSIS"
+    },
+    {
+        "_id": "AUF0030",
+        "name": "Prince Mark Coffie",
+        "department": "ENGR"
+    },
+    {
+        "_id": "AUF0031",
+        "name": "Michael Osei",
+        "department": "ENGR"
+    },
+    {
+        "_id": "AUF0032",
+        "name": "Emmanuel Asare",
+        "department": "ENGR"
+    },
+    {
+        "_id": "AUF0033",
+        "name": "Elizabeth Johnson",
+        "department": "HSS"
+    },
+    {
+        "_id": "AUF0034",
+        "name": "Nana Amma Opoku-Boadu",
+        "department": "HSS"
+    },
+    {
+        "_id": "AUF0035",
+        "name": "Earl-Philips Otibo-Addo",
+        "department": "HSS"
+    },
+    {
+        "_id": "AUF0036",
+        "name": "Eleanor Lebene Gbedawo",
+        "department": "HSS"
+    },
+    {
+        "_id": "AUF0037",
+        "name": "Kristen Maame Efua Quayson",
+        "department": "HSS"
+    },
+    {
+        "_id": "AUF0038",
+        "name": "Nancy Brown",
+        "department": "HSS"
+    },
+    {
+        "_id": "AUF0039",
+        "name": "Rachel Araba Sam",
+        "department": "HSS"
+    },
+    {
+        "_id": "AUF0040",
+        "name": "Ronny Panford",
+        "department": "ENGR"
+    },
+    {
+        "_id": "AUF0041",
+        "name": "Hannah Lormenyo",
+        "department": "ENGR"
+    },
+    {
+        "_id": "AUF0042",
+        "name": "Irene Amessouwo",
+        "department": "HSS"
+    },
+    {
+        "_id": "AUF0043",
+        "name": "Marian-Bernice Haligah",
+        "department": "CSIS"
+    },
+    {
+        "_id": "AUF0044",
+        "name": "Verissa Owusu",
+        "department": "CSIS"
+    },
+    {
+        "_id": "AUF0045",
+        "name": "Florence Ofori",
+        "department": "CSIS"
+    },
+    {
+        "_id": "AUF0046",
+        "name": "Albert Coffie",
+        "department": "CSIS"
+    },
+    {
+        "_id": "AUF0047",
+        "name": "Eugenia Mawuenya Akpo",
+        "department": "ENGR"
+    },
+    {
+        "_id": "AUF0048",
+        "name": "Issifu Alhassan",
+        "department": "ENGR"
+    },
+    {
+        "_id": "AUF0049",
+        "name": "Allotie Pappoe",
+        "department": "CSIS"
+    },
+    {
+        "_id": "AUF0050",
+        "name": "Edmund Fosu Agyemang",
+        "department": "CSIS"
+    },
+    {
+        "_id": "AUF0051",
+        "name": "Alhassan Sullaiman",
+        "department": "ENGR"
+    },
+    {
+        "_id": "AUF0052",
+        "name": "Joyce Akey",
+        "department": "ENGR"
+    },
+    {
+        "_id": "AUF0053",
+        "name": "Ivana Ayorkor Barley",
+        "department": "ENGR"
+    },
+    {
+        "_id": "AUF0054",
+        "name": "David Asiamah Boateng",
+        "department": "HSS"
+    },
+    {
+        "_id": "AUF0055",
+        "name": "Opanin Kwadwo Akuffo",
+        "department": "ENGR"
+    },
+    {
+        "_id": "AUF0056",
+        "name": "Jesse Ayenor",
+        "department": "HSS"
+    },
+    {
+        "_id": "AUF0057",
+        "name": "Lilian Naa Komiokor Quaye",
+        "department": "HSS"
+    },
+    {
+        "_id": "AUF0058",
+        "name": "Julianne Djan-Sampson",
+        "department": "HSS"
+    },
+    {
+        "_id": "AUF0059",
+        "name": "Yoofi Nketsiah",
+        "department": "HSS"
+    },
+    {
+        "_id": "AUF0060",
+        "name": "Mariam Korankye",
+        "department": "HSS"
+    },
+    {
+        "_id": "AUF0061",
+        "name": "Loretta Adaakwah",
+        "department": "HSS"
+    },
+    {
+        "_id": "AUF0062",
+        "name": "Emmanuel Agamah",
+        "department": "HSS"
     }
 ]

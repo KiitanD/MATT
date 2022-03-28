@@ -398,5 +398,30 @@
         "_id": "AUL0080",
         "name": "Yawa Agbemabiese",
         "department": "HSS"
+    },
+    {
+        "_id": "AUL0081",
+        "name": "Justina Kwami Morris",
+        "department": "BUSA"
+    },
+    {
+        "_id": "AUL0082",
+        "name": "William Murithi",
+        "department": "BUSA"
+    },
+    {
+        "_id": "AUL0083",
+        "name": "Samuel Darko",
+        "department": "BUSA"
+    },
+    {
+        "_id": "AUL0084",
+        "name": "Kenobi Morris",
+        "department": "ENGR"
+    },
+    {
+        "_id": "AUL0085",
+        "name": "Eric Acheampong",
+        "department": "HSS"
     }
 ]
