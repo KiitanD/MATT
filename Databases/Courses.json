@@ -954,6 +954,380 @@
             "MIS": "M"
         }
     },
-    {"comment": "YEAR FOUR REQUIREMENTS END HERE"}
+    {"comment": "YEAR FOUR REQUIREMENTS END HERE"},
+    { 
+        "_id": "BUSA432",
+        "course_title": "Organizational Development",
+        "meeting_type": "A",
+        "elective_for": {
+            "BA": "M"
+        }
+    },
+    { 
+        "_id": "BUSA401_B",
+        "course_title": "Entrepreneurship II",
+        "meeting_type": "I",
+        "option_for": {
+            "MIS": 8,
+            "BA": 8,
+            "CS": 8
+        },
+        "alternative": [["BUSA410", "BUSA492", "CS410", "CS492"]],
+        "pre-requisites": ["BUSA401_A"]
+    },
+    { 
+        "_id": "BUSA403",
+        "course_title": "Company and Commercial Law",
+        "meeting_type": "A",
+        "elective_for": {
+            "BA": "M",
+            "MIS": "M"
+        }
+    },
+    { 
+        "_id": "BUSA410",
+        "course_title": "Applied Project (BA)",
+        "meeting_type": "D",
+        "option_for": {
+            "BA": 8,
+            "MIS": 8,
+            "CS": 8
+        },
+        "alternative": [["BUSA492", "BUSA401_B", "CS410", "CS492"]]
+    },
+    { 
+        "_id": "BUSA423",
+        "course_title": "International Finance",
+        "meeting_type": "A",
+        "elective_for": {
+            "BA": "M",
+            "MIS": "M"
+        },
+        "pre-requisites": [["BUSA220", "BUSA224"]]
+    },
+    { 
+        "_id": "BUSA431",
+        "course_title": "Real Estate Development",
+        "meeting_type": "A",
+        "elective_for": {
+            "BA": "M",
+            "MIS": "M"
+        }
+    },
+    { 
+        "_id": "BUSA442",
+        "course_title": "Strategic Brand Management",
+        "meeting_type": "A",
+        "elective_for": {
+            "BA": "M",
+            "MIS": "M"
+        }
+    },
+    { 
+        "_id": "BUSA456",
+        "course_title": "Managerial Economics",
+        "meeting_type": "A",
+        "elective_for": {
+            "BA": "M",
+            "MIS": "M"
+        }
+    },
+    { 
+        "_id": "BUSA471",
+        "course_title": "Social Enterprise",
+        "meeting_type": "A",
+        "elective_for": {
+            "BA": "M",
+            "MIS": "M"
+        }
+    },
+    { 
+        "_id": "BUSA492",
+        "course_title": "Undergraduate Thesis II (BA)",
+        "meeting_type": "C",
+        "option_for": {
+            "BA": 8,
+            "MIS": 8,
+            "CS": 8
+        },
+        "alternative": [["BUSA410", "BUSA401_B", "CS410", "CS492"]]
+    },
+    { 
+        "_id": "CS452",
+        "course_title": "Machine Learning",
+        "meeting_type": "B",
+        "elective_for": {
+            "MIS": "M",
+            "CS": "M",
+            "CE": "M"
+        },
+        "pre-requisites": [["CS112", "CS212"], ["MATH211", "MATH212"]]
+    },
+    { 
+        "_id": "CS410",
+        "course_title": "Applied Project (CS)",
+        "meeting_type": "D",
+        "option_for": {
+            "CS": "M",
+            "MIS": "M"
+        },
+        "alternative": [["BUSA410", "BUSA401_B", "BUSA492", "CS492"]]
+    },
+    { 
+        "_id": "CS443",
+        "course_title": "Mobile Application Development",
+        "meeting_type": "B",
+        "elective_for": {
+            "CS": "M",
+            "MIS": "M"
+        }
+    },
+    { 
+        "_id": "CS462",
+        "course_title": "Cloud Computing",
+        "meeting_type": "B",
+        "elective_for": {
+            "CS": "M",
+            "MIS": "M"
+        }
+    },
+    { 
+        "_id": "CS492",
+        "course_title": "Undergraduate Thesis II (CS)",
+        "meeting_type": "C",
+        "elective_for": {
+            "CS": "M",
+            "MIS": "M"
+        }
+    },
+        { 
+        "_id": "EE442",
+        "course_title": "Power Electronics",
+        "meeting_type": "J",
+        "elective_for": {
+            "EE": "M"
+        },
+        "pre-requisites": [["EE242", "EE222"]]
+    },
+    { 
+        "_id": "EE453",
+        "course_title": "Power Systems Analysis",
+        "meeting_type": "F",
+        "elective_for": {
+            "EE": "M"
+        },
+        "pre-requisites": ["EE451"]
+    },
+    { 
+        "_id": "ENGR415",
+        "course_title": "Predictive Maintenance",
+        "meeting_type": "F",
+        "elective_for": {
+            "CE": "M",
+            "EE": "M",
+            "ME": "M"
+        }
+    },
+    { 
+        "_id": "FRENC111",
+        "course_title": "Introductory French I",
+        "meeting_type": "A",
+        "elective_for": {
+            "BA": "N",
+            "MIS": "N",
+            "CS": "N",
+            "CE": "N",
+            "EE": "N",
+            "ME": "N"
+        }
+    },
+    { 
+        "_id": "FRENC123",
+        "course_title": "Introductory French II",
+        "meeting_type": "A",
+        "elective_for": {
+            "BA": "N",
+            "MIS": "N",
+            "CS": "N",
+            "CE": "N",
+            "EE": "N",
+            "ME": "N"
+        },
+        "pre-requisites": ["FRENC111"]
+    },
+    { 
+        "_id": "FRENC317",
+        "course_title": "French for Media and Communication",
+        "meeting_type": "A",
+        "elective_for": {
+            "BA": "N",
+            "MIS": "N",
+            "CS": "N",
+            "CE": "N",
+            "EE": "N",
+            "ME": "N"
+        }
+    },
+    { 
+        "_id": "IS371",
+        "course_title": "Technology and Ethics",
+        "meeting_type": "C",
+        "elective_for": {
+            "MIS": "M",
+            "CS": "M"
+        }
+    },
+    { 
+        "_id": "MATH101",
+        "course_title": "College Algebra",
+        "meeting_type": "E",
+        "option_for": {
+            "BA": 1,
+            "MIS": 1,
+            "CS": 1
+        }
+    },
+    { 
+        "_id": "ME442",
+        "course_title": "Computer Aided Design and Manufacturing",
+        "meeting_type": "B",
+        "elective_for": {
+            "EE": "M",
+            "ME": "M"
+        }
+    },
+    { 
+        "_id": "ME453",
+        "course_title": "Automotive Engineering",
+        "meeting_type": "C",
+        "elective_for": {
+            "ME": "M"
+        },
+        "pre-requisites": [["EE222", "EE242"]]
+    },
+    { 
+        "_id": "POLS322",
+        "course_title": "China-Africa Relations",
+        "meeting_type": "A",
+        "elective_for": {
+            "BA": "N",
+            "MIS": "N",
+            "CS": "N",
+            "CE": "N",
+            "EE": "N",
+            "ME": "N"
+        },
+        "pre-requisites": ["ENGL112"]
+    },
+    { 
+        "_id": "POLS332",
+        "course_title": "Governance in Africa",
+        "meeting_type": "A",
+        "elective_for": {
+            "BA": "N",
+            "MIS": "N",
+            "CS": "N",
+            "CE": "N",
+            "EE": "N",
+            "ME": "N"
+        },
+        "pre-requisites": ["ENGL112"]
+    },
+    { 
+        "_id": "SOAN225",
+        "course_title": "Ghanaian Popular Culture",
+        "meeting_type": "A",
+        "elective_for": {
+            "BA": "N",
+            "MIS": "N",
+            "CS": "N",
+            "CE": "N",
+            "EE": "N",
+            "ME": "N"
+        },
+        "pre-requisites": ["ENGL112"]
+    },
+    { 
+        "_id": "SOAN227",
+        "course_title": "Religion in Africa",
+        "meeting_type": "A",
+        "elective_for": {
+            "BA": "N",
+            "MIS": "N",
+            "CS": "N",
+            "CE": "N",
+            "EE": "N",
+            "ME": "N"
+        },
+        "pre-requisites": ["ENGL112"]
+    },
+    { 
+        "_id": "SOAN234",
+        "course_title": "African Music and the Contemporary Art Music Scene",
+        "meeting_type": "A",
+        "elective_for": {
+            "BA": "N",
+            "MIS": "N",
+            "CS": "N",
+            "CE": "N",
+            "EE": "N",
+            "ME": "N"
+        },
+        "pre-requisites": ["ENGL112"]
+    },
+    { 
+        "_id": "SOAN235",
+        "course_title": "Embodied African Aesthetic Foundations: West African Traditional and Contemporary Dance Praxis",
+        "meeting_type": "A",
+        "elective_for": {
+            "BA": "N",
+            "MIS": "N",
+            "CS": "N",
+            "CE": "N",
+            "EE": "N",
+            "ME": "N"
+        },
+        "pre-requisites": ["ENGL112"]
+    },
+    { 
+        "_id": "SOAN251",
+        "course_title": "Africa in the International Setting",
+        "meeting_type": "A",
+        "elective_for": {
+            "BA": "N",
+            "MIS": "N",
+            "CS": "N",
+            "CE": "N",
+            "EE": "N",
+            "ME": "N"
+        },
+        "pre-requisites": ["ENGL112"]
+    },
+    { 
+        "_id": "SOAN301",
+        "course_title": "Introduction to Africana Studies: The Global Black Experience",
+        "meeting_type": "A",
+        "elective_for": {
+            "BA": "N",
+            "MIS": "N",
+            "CS": "N",
+            "CE": "N",
+            "EE": "N",
+            "ME": "N"
+        },
+        "pre-requisites": ["ENGL112"]
+    },
+    { 
+        "_id": "SOAN328",
+        "course_title": "Creative and Research Internship",
+        "meeting_type": "A",
+        "elective_for": {
+            "BA": "N",
+            "MIS": "N",
+            "CS": "N",
+            "CE": "N",
+            "EE": "N",
+            "ME": "N"
+        }
+    }
 ]
-
