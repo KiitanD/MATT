@@ -15,11 +15,6 @@
         "department": "BUSA"
     },
     {
-        "_id": "AUF0003",
-        "name": "Jason Apaw Nkansah",
-        "department": "BUSA"
-    },
-    {
         "_id": "AUF0004",
         "name": "Yayra Azaglo",
         "department": "BUSA"
@@ -308,5 +303,10 @@
         "_id": "AUF0062",
         "name": "Emmanuel Agamah",
         "department": "HSS"
+    },
+    {
+        "_id": "AUF0063",
+        "name": "Jason Apaw Nkansah",
+        "department": "BUSA"
     }
 ]
