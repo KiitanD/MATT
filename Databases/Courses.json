@@ -328,8 +328,8 @@
         "pre-requisites": ["MATH161"]
     },
     { 
-        "_id": "CE122",
-        "course_title": "Applied Programming for Engineers",
+        "_id": "CE322",
+        "course_title": "Digital Systems Design",
         "meeting_type": "B",
         "required_for": {
             "CE": 3,
@@ -1329,5 +1329,16 @@
             "EE": "N",
             "ME": "N"
         }
+    },
+    { 
+        "_id": "CE122",
+        "course_title": "Applied Programming for Engineers",
+        "meeting_type": "E",
+        "required_for": {
+            "CE": 3,
+            "EE": 3,
+            "ME": 3
+        }
     }
+
 ]
