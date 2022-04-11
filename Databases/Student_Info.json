@@ -16,6 +16,28 @@
           
     },
     {
+        "id": "14502022",
+        "name":"Glennis Osafo",
+        "major":"EE",
+        "year":"2022",
+        "courses_taken":[
+
+        ]
+          
+          
+    },
+    {
+        "id": "11902022",
+        "name":"Godspeed Kalu",
+        "major":"CE",
+        "year":"2022",
+        "courses_taken":[
+
+        ]
+          
+          
+    },
+    {
         "id": "81002022",
         "name":"Glenn Obiri",
         "major":"MIS",
@@ -93,6 +115,28 @@
           
     },
     {
+        "id": "75002023",
+        "name":"Jajulo Oludemi",
+        "major":"ME",
+        "year":"2023",
+        "courses_taken":[
+
+        ]
+          
+          
+    },
+    {
+        "id": "16002023",
+        "name":"Jael Oku",
+        "major":"CE",
+        "year":"2023",
+        "courses_taken":[
+
+        ]
+          
+          
+    },
+    {
         "id": "11102024",
         "name":"Maurice Gyampo",
         "major":"ME",
@@ -129,6 +173,28 @@
         "id": "16402024",
         "name":"Bakotu Lalumba",
         "major":"BA",
+        "year":"2024",
+        "courses_taken":[
+
+        ]
+          
+          
+    },
+    {
+        "id": "15902024",
+        "name":"Isaac Eshun",
+        "major":"EE",
+        "year":"2024",
+        "courses_taken":[
+
+        ]
+          
+          
+    },
+    {
+        "id": "25002024",
+        "name":"Joshua Esum",
+        "major":"CE",
         "year":"2024",
         "courses_taken":[
 
@@ -178,6 +244,28 @@
 
         ]
                 
+    },
+    {
+        "id": "88002025",
+        "name":"Sasha Ansah",
+        "major":"MIS",
+        "year":"2025",
+        "courses_taken":[
+
+        ]
+          
+          
+    },
+    {
+        "id": "82002025",
+        "name":"Lakeith Sogbe",
+        "major":"EE",
+        "year":"2025",
+        "courses_taken":[
+
+        ]
+          
+          
     }
     
 ]
