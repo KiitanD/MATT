@@ -1,0 +1,183 @@
+[
+    {
+        "id": "23002022",
+        "name":"Aba Serwaa Gyamfi",
+        "major":"CS",
+        "year":"2022",
+        "courses_taken":[
+         "ENGL112",
+         "MATH141",
+         "MATH142",
+         "BUSA161",
+         "BUSA162"
+
+        ]
+          
+          
+    },
+    {
+        "id": "81002022",
+        "name":"Glenn Obiri",
+        "major":"MIS",
+        "year":"2022",
+        "courses_taken":[
+
+        ]
+          
+          
+    },
+    {
+        "id": "12002022",
+        "name":"Milicent Appau",
+        "major":"BA",
+        "year":"2022",
+        "courses_taken":[
+
+        ]
+          
+          
+    },
+    {
+        "id": "37002022",
+        "name":"Greatness Agbanyo",
+        "major":"ME",
+        "year":"2022",
+        "courses_taken":[
+
+        ]
+          
+          
+    },
+    {
+        "id": "46002023",
+        "name":"Godwin Olunde",
+        "major":"EE",
+        "year":"2023",
+        "courses_taken":[
+
+        ]
+          
+          
+    },
+    {
+        "id": "67002023",
+        "name":"Jane Agbanyo",
+        "major":"BA",
+        "year":"2023",
+        "courses_taken":[
+
+        ]
+          
+          
+    },
+    {
+        "id": "69002023",
+        "name":"John Owusu",
+        "major":"CS",
+        "year":"2023",
+        "courses_taken":[
+
+        ]
+          
+          
+    },
+    {
+        "id": "54002023",
+        "name":"Lars Kakatu",
+        "major":"MIS",
+        "year":"2023",
+        "courses_taken":[
+
+        ]
+          
+          
+    },
+    {
+        "id": "11102024",
+        "name":"Maurice Gyampo",
+        "major":"ME",
+        "year":"2024",
+        "courses_taken":[
+
+        ]
+          
+          
+    },
+    {
+        "id": "12502024",
+        "name":"Caleb Eshun",
+        "major":"MIS",
+        "year":"2024",
+        "courses_taken":[
+
+        ]
+          
+          
+    },
+    {
+        "id": "79002024",
+        "name":"Berthany Gakpo",
+        "major":"CS",
+        "year":"2024",
+        "courses_taken":[
+
+        ]
+          
+          
+    },
+    {
+        "id": "16402024",
+        "name":"Bakotu Lalumba",
+        "major":"BA",
+        "year":"2024",
+        "courses_taken":[
+
+        ]
+          
+          
+    },
+    {
+        "id": "88002025",
+        "name":"Serwaa Lolugbe",
+        "major":"CE",
+        "year":"2025",
+        "courses_taken":[
+
+        ]
+          
+          
+    },
+    {
+        "id": "61002025",
+        "name":"Laura Smith-Mensa",
+        "major":"BA",
+        "year":"2025",
+        "courses_taken":[
+
+        ]
+          
+          
+    },
+    {
+        "id": "98002025",
+        "name":"Baffour Agyei",
+        "major":"CS",
+        "year":"2025",
+        "courses_taken":[
+
+        ]
+          
+          
+    },
+    {
+        "id": "90002025",
+        "name":"Lubara Sasaglo",
+        "major":"ME",
+        "year":"2025",
+        "courses_taken":[
+
+        ]
+                
+    }
+    
+]
