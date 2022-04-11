@@ -5,12 +5,16 @@
         "major":"CS",
         "year":"2022",
         "courses_taken":[
-         "ENGL112",
-         "MATH141",
-         "MATH142",
-         "BUSA161",
-         "BUSA162"
-
+            "ENGL112",
+            "MATH141",
+            "MATH142",
+            "BUSA161",
+            "BUSA162",
+            "AS111",
+            "CS111",
+            "SOAN111",
+            "ENGL113",
+            "CS212"
         ]
           
           
@@ -98,7 +102,16 @@
         "major":"CS",
         "year":"2023",
         "courses_taken":[
-
+            "ENGL112",
+            "MATH141",
+            "MATH142",
+            "BUSA161",
+            "BUSA162",
+            "AS111",
+            "CS111",
+            "SOAN111",
+            "ENGL113",
+            "CS212"
         ]
           
           
@@ -164,7 +177,16 @@
         "major":"CS",
         "year":"2024",
         "courses_taken":[
-
+            "ENGL112",
+            "MATH141",
+            "MATH142",
+            "BUSA161",
+            "BUSA162",
+            "AS111",
+            "CS111",
+            "SOAN111",
+            "ENGL113",
+            "CS212"
         ]
           
           
@@ -197,6 +219,7 @@
         "major":"CE",
         "year":"2024",
         "courses_taken":[
+           
 
         ]
           
