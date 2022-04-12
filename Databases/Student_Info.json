@@ -118,7 +118,17 @@
             "CS111",
             "SOAN111",
             "ENGL113",
-            "CS212"
+            "CS212",
+            "SOAN221",
+            "MATH222",
+            "ECON101",
+            "CS221",
+            "CS222",
+            "SOAN311",
+            "MATH233",
+            "CS313",
+            "CS323",
+            "BUSA224"
         ]
           
           
@@ -205,7 +215,8 @@
         "major":"BA",
         "year":"2024",
         "courses_taken":[
-
+            "BUSA161",
+            "BUSA162"
         ]
           
           
@@ -216,7 +227,8 @@
         "major":"EE",
         "year":"2024",
         "courses_taken":[
-
+            "BUSA161",
+            "BUSA162"
         ]
           
           
@@ -227,7 +239,8 @@
         "major":"CE",
         "year":"2024",
         "courses_taken":[
-           
+            "BUSA161",
+            "BUSA162"
 
         ]
           
@@ -239,7 +252,8 @@
         "major":"CE",
         "year":"2025",
         "courses_taken":[
-
+            "BUSA161",
+            "BUSA162"
         ]
           
           
@@ -261,7 +275,7 @@
         "major":"CS",
         "year":"2025",
         "courses_taken":[
-
+            
         ]
           
           
