@@ -4,6 +4,7 @@
         "name":"Aba Serwaa Gyamfi",
         "major":"CS",
         "year":"2022",
+        "payment_stat":false,
         "courses_taken":[
             "ENGL112",
             "MATH141",
@@ -24,6 +25,7 @@
         "name":"Glennis Osafo",
         "major":"EE",
         "year":"2022",
+        "payment_stat":false,
         "courses_taken":[
             "BUSA161",
             "BUSA162"
@@ -36,6 +38,7 @@
         "name":"Godspeed Kalu",
         "major":"CE",
         "year":"2022",
+        "payment_stat":false,
         "courses_taken":[
             "BUSA161",
             "BUSA162"
@@ -48,6 +51,7 @@
         "name":"Glenn Obiri",
         "major":"MIS",
         "year":"2022",
+        "payment_stat":false,
         "courses_taken":[
             "BUSA161",
             "BUSA162"
@@ -60,6 +64,7 @@
         "name":"Milicent Appau",
         "major":"BA",
         "year":"2022",
+        "payment_stat":false,
         "courses_taken":[
             "BUSA161",
             "BUSA162"
@@ -72,6 +77,7 @@
         "name":"Greatness Agbanyo",
         "major":"ME",
         "year":"2022",
+        "payment_stat":false,
         "courses_taken":[
             "BUSA161",
             "BUSA162"
@@ -84,6 +90,7 @@
         "name":"Godwin Olunde",
         "major":"EE",
         "year":"2023",
+        "payment_stat":false,
         "courses_taken":[
             "BUSA161",
             "BUSA162"
@@ -96,6 +103,7 @@
         "name":"Jane Agbanyo",
         "major":"BA",
         "year":"2023",
+        "payment_stat":false,
         "courses_taken":[
             "BUSA161",
             "BUSA162"
@@ -108,6 +116,7 @@
         "name":"John Owusu",
         "major":"CS",
         "year":"2023",
+        "payment_stat":false,
         "courses_taken":[
             "ENGL112",
             "MATH141",
@@ -138,6 +147,7 @@
         "name":"Lars Kakatu",
         "major":"MIS",
         "year":"2023",
+        "payment_stat":false,
         "courses_taken":[
             "BUSA161",
             "BUSA162"
@@ -150,6 +160,7 @@
         "name":"Jajulo Oludemi",
         "major":"ME",
         "year":"2023",
+        "payment_stat":false,
         "courses_taken":[
 
         ]
@@ -161,6 +172,7 @@
         "name":"Jael Oku",
         "major":"CE",
         "year":"2023",
+        "payment_stat":false,
         "courses_taken":[
 
         ]
@@ -172,6 +184,7 @@
         "name":"Maurice Gyampo",
         "major":"ME",
         "year":"2024",
+        "payment_stat":false,
         "courses_taken":[
 
         ]
@@ -183,6 +196,7 @@
         "name":"Caleb Eshun",
         "major":"MIS",
         "year":"2024",
+        "payment_stat":false,
         "courses_taken":[
 
         ]
@@ -194,6 +208,7 @@
         "name":"Berthany Gakpo",
         "major":"CS",
         "year":"2024",
+        "payment_stat":false,
         "courses_taken":[
             "ENGL112",
             "MATH141",
@@ -214,6 +229,7 @@
         "name":"Bakotu Lalumba",
         "major":"BA",
         "year":"2024",
+        "payment_stat":false,
         "courses_taken":[
             "BUSA161",
             "BUSA162"
@@ -226,6 +242,7 @@
         "name":"Isaac Eshun",
         "major":"EE",
         "year":"2024",
+        "payment_stat":false,
         "courses_taken":[
             "BUSA161",
             "BUSA162"
@@ -238,6 +255,7 @@
         "name":"Joshua Esum",
         "major":"CE",
         "year":"2024",
+        "payment_stat":false,
         "courses_taken":[
             "BUSA161",
             "BUSA162"
@@ -251,6 +269,7 @@
         "name":"Serwaa Lolugbe",
         "major":"CE",
         "year":"2025",
+        "payment_stat":false,
         "courses_taken":[
             "BUSA161",
             "BUSA162"
@@ -263,6 +282,7 @@
         "name":"Laura Smith-Mensa",
         "major":"BA",
         "year":"2025",
+        "payment_stat":false,
         "courses_taken":[
 
         ]
@@ -274,6 +294,7 @@
         "name":"Baffour Agyei",
         "major":"CS",
         "year":"2025",
+        "payment_stat":false,
         "courses_taken":[
             
         ]
@@ -285,6 +306,7 @@
         "name":"Lubara Sasaglo",
         "major":"ME",
         "year":"2025",
+        "payment_stat":false,
         "courses_taken":[
 
         ]
@@ -295,6 +317,7 @@
         "name":"Sasha Ansah",
         "major":"MIS",
         "year":"2025",
+        "payment_stat":false,
         "courses_taken":[
 
         ]
@@ -306,6 +329,7 @@
         "name":"Lakeith Sogbe",
         "major":"EE",
         "year":"2025",
+        "payment_stat":false,
         "courses_taken":[
 
         ]
