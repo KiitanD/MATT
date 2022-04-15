@@ -35,6 +35,21 @@
         "Duration": 90
     },
     {
+        "_id": "MondayE1",
+        "Day": "Monday",
+        "Start": "13:15:00",
+        "End": "16:15:00",
+        "Duration": 180
+    },
+    {
+        "_id": "MondayE2",
+        "Day": "Monday",
+        "Start": "15:00:00",
+        "End": "18:00:00",
+        "Duration": 180,
+        "minimize": "true"
+    },
+    {
         "_id": "TuesdayS1",
         "Day": "Tuesday",
         "Start": "08:00:00",
@@ -70,6 +85,21 @@
         "Duration": 90
     },
     {
+        "_id": "TuesdayE1",
+        "Day": "Tuesday",
+        "Start": "13:15:00",
+        "End": "16:15:00",
+        "Duration": 180
+    },
+    {
+        "_id": "TuesdayE2",
+        "Day": "Tuesday",
+        "Start": "15:00:00",
+        "End": "18:00:00",
+        "Duration": 180,
+        "minimize": "true"
+    },
+    {
         "_id": "WednesdayS1",
         "Day": "Wednesday",
         "Start": "08:00:00",
@@ -103,7 +133,7 @@
         "Start": "15:00:00",
         "End": "16:30:00",
         "Duration": 90,
-        "minimise": "true"
+        "minimize": "true"
     },
     {
         "_id": "ThursdayS1",
@@ -146,7 +176,7 @@
         "Start": "15:00:00",
         "End": "18:00:00",
         "Duration": 180,
-        "minimise": "true"
+        "minimize": "true"
     },
     {
         "_id": "FridayS1",
@@ -224,7 +254,7 @@
         "Start": "15:30:00",
         "End": "17:00:00",
         "Duration": 90,
-        "minimise": "true"
+        "minimize": "true"
     },
     {
         "_id": "FridayE7",
@@ -246,7 +276,7 @@
         "Start": "14:00:00",
         "End": "17:00:00",
         "Duration": 180,
-        "minimise": "true"
+        "minimize": "true"
     }
 ]
 

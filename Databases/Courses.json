@@ -923,7 +923,7 @@
         "pre-requisites": [["BUSA220", "BUSA224"], "ECON102"]
     },
     { 
-        "_id": "ENG413",
+        "_id": "ENGR413",
         "course_title": "Project Management and Professional Practice",
         "meeting_type": "B",
         "required_for": {
@@ -990,8 +990,7 @@
         "meeting_type": "D",
         "option_for": {
             "BA": 8,
-            "MIS": 8,
-            "CS": 8
+            "MIS": 8
         },
         "alternative": [["BUSA492", "BUSA401_B", "CS410", "CS492"]]
     },
@@ -1095,10 +1094,11 @@
         "_id": "CS492",
         "course_title": "Undergraduate Thesis II (CS)",
         "meeting_type": "C",
-        "elective_for": {
-            "CS": "M",
-            "MIS": "M"
-        }
+        "option_for": {
+            "CS": "8",
+            "MIS": "8"
+        },
+        "alternative": [["CS410", "BUSA401_B", "BUSA410", "BUSA492"]]
     },
         { 
         "_id": "EE442",
