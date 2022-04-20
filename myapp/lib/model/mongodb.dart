@@ -9,7 +9,8 @@ class MongoDatabase {
       ClassCollection,
       CoursesCollection,
       LecturersCollection,
-      Spring22Collection;
+      Spring22Collection,
+      StudentInfoCollection;
   static connect() async {
     db = await Db.create(MONGO_CONN_URL);
     await db.open();
@@ -19,6 +20,7 @@ class MongoDatabase {
     CoursesCollection = db.collection(Courses_Coll);
     LecturersCollection = db.collection(Lecturers_Coll);
     Spring22Collection = db.collection(Spring22_Coll);
+    StudentInfoCollection = db.collection(StudentInfo_Coll);
   }
 
 //This method get the data from the database
@@ -30,6 +32,7 @@ class MongoDatabase {
       var courseList = await CoursesCollection.find().toList();
       var lecturersList = await LecturersCollection.find().toList();
       var spring22List = await Spring22Collection.find().toList();
+      var studentinfo = await StudentInfoCollection.find().toList();
       //print(periodList);
       //Store the list in another list so we can return the value and call them in another class
       var generalValue = [
@@ -37,7 +40,8 @@ class MongoDatabase {
         classList,
         courseList,
         lecturersList,
-        spring22List
+        spring22List,
+        studentinfo
       ];
 
       //check if we converted the data properly
@@ -45,7 +49,8 @@ class MongoDatabase {
           classList.isSuccess &&
           courseList.isSuccess &&
           lecturersList.isSuccess &&
-          spring22List.isSuccess) {
+          spring22List.isSuccess &&
+          studentinfo.isSuccess) {
         print("Retrived data succesfully");
       } else {
         print("Something wrong in retreival");
