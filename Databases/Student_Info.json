@@ -162,7 +162,8 @@
         "year":"2023",
         "payment_stat":false,
         "courses_taken":[
-
+            "BUSA161",
+            "BUSA162"
         ]
           
           
@@ -174,7 +175,8 @@
         "year":"2023",
         "payment_stat":false,
         "courses_taken":[
-
+            "BUSA161",
+            "BUSA162"
         ]
           
           
@@ -186,6 +188,8 @@
         "year":"2024",
         "payment_stat":false,
         "courses_taken":[
+            "BUSA161",
+            "BUSA162"
 
         ]
           
@@ -198,7 +202,8 @@
         "year":"2024",
         "payment_stat":false,
         "courses_taken":[
-
+            "BUSA161",
+            "BUSA162"
         ]
           
           
