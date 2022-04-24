@@ -5,20 +5,31 @@ import 'package:myapp/model/constant.dart';
 
 class MongoDatabase {
   static var db,
+      db2,
       PeriodCollection,
       ClassCollection,
       CoursesCollection,
       LecturersCollection,
-      Spring22Collection;
+      Spring22Collection,
+      FeePaymenCollection;
+
   static connect() async {
     db = await Db.create(MONGO_CONN_URL);
+    db2 = await Db.create(MONGO_CONN_URI);
+
+    await db2.open();
     await db.open();
     inspect(db);
     PeriodCollection = db.collection(ClassPeriod_Coll);
     ClassCollection = db.collection(Classrooms_Coll);
     CoursesCollection = db.collection(Courses_Coll);
+
     LecturersCollection = db.collection(Lecturers_Coll);
     Spring22Collection = db.collection(Spring22_Coll);
+
+    FeePaymenCollection = db2.collection(Fee_Coll);
+    // print(PeriodCollection);
+    return FeePaymenCollection;
   }
 
 //This method get the data from the database
@@ -30,26 +41,32 @@ class MongoDatabase {
       var courseList = await CoursesCollection.find().toList();
       var lecturersList = await LecturersCollection.find().toList();
       var spring22List = await Spring22Collection.find().toList();
-      //print(periodList);
+      var feeList = await FeePaymenCollection.find().toList();
+
+      //    print(feeList);
+
+      //  print(classList);
+
+      //for (int i = 0; i < classList.length; i++) {
+      //print(classList[i]['capacity']);
+      //}
+      //for (int i = 0; i < feeList.length; i++) {
+      //print(feeList[i]['stid']);
+      //}
+
       //Store the list in another list so we can return the value and call them in another class
-      var generalValue = [
+      List generalValue = [
         periodList,
         classList,
         courseList,
         lecturersList,
-        spring22List
+        spring22List,
+        feeList
       ];
+      //  print(generalValue);
 
       //check if we converted the data properly
-      if (periodList.isSuccess &&
-          classList.isSuccess &&
-          courseList.isSuccess &&
-          lecturersList.isSuccess &&
-          spring22List.isSuccess) {
-        print("Retrived data succesfully");
-      } else {
-        print("Something wrong in retreival");
-      }
+
       return generalValue;
     } catch (e) {
       return e.toString();

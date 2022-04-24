@@ -1,10 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:myapp/model/billingSystem.dart';
 import 'package:myapp/model/mongodb.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await MongoDatabase.connect();
-  await MongoDatabase.getData();
+  //await MongoDatabase.checkUser();
+  await Finance.checkStudent("01112022");
+  await Finance.feesCalc(10, 23000, "01112022");
   runApp(const MyApp());
 }
 
