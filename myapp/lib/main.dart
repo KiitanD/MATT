@@ -1,13 +1,17 @@
 import 'package:flutter/material.dart';
+import 'package:myapp/model/PreviousCourse.dart';
 import 'package:myapp/model/billingSystem.dart';
 import 'package:myapp/model/mongodb.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await MongoDatabase.connect();
-  //await MongoDatabase.checkUser();
+  // await MongoDatabase.connect2();
+  // await MongoDatabase.getData();
   await Finance.checkStudent("01112022");
-  await Finance.feesCalc(10, 23000, "01112022");
+  await Finance.feesCalc(10, 23000, "01232022");
+  // await Finance.addAll(5000);
+  await PreCourse.getPrevCourse("01112022");
   runApp(const MyApp());
 }
 

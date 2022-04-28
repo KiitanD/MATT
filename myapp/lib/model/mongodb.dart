@@ -6,12 +6,14 @@ import 'package:myapp/model/constant.dart';
 class MongoDatabase {
   static var db,
       db2,
+      db3,
       PeriodCollection,
       ClassCollection,
       CoursesCollection,
       LecturersCollection,
       Spring22Collection,
-      FeePaymenCollection;
+      FeePaymenCollection,
+      CouresRegCollection;
 
   static connect() async {
     db = await Db.create(MONGO_CONN_URL);
@@ -28,7 +30,7 @@ class MongoDatabase {
     Spring22Collection = db.collection(Spring22_Coll);
 
     FeePaymenCollection = db2.collection(Fee_Coll);
-    // print(PeriodCollection);
+    print(FeePaymenCollection);
     return FeePaymenCollection;
   }
 
@@ -42,17 +44,7 @@ class MongoDatabase {
       var lecturersList = await LecturersCollection.find().toList();
       var spring22List = await Spring22Collection.find().toList();
       var feeList = await FeePaymenCollection.find().toList();
-
-      //    print(feeList);
-
-      //  print(classList);
-
-      //for (int i = 0; i < classList.length; i++) {
-      //print(classList[i]['capacity']);
-      //}
-      //for (int i = 0; i < feeList.length; i++) {
-      //print(feeList[i]['stid']);
-      //}
+      print(feeList);
 
       //Store the list in another list so we can return the value and call them in another class
       List generalValue = [
@@ -63,7 +55,6 @@ class MongoDatabase {
         spring22List,
         feeList
       ];
-      //  print(generalValue);
 
       //check if we converted the data properly
 
