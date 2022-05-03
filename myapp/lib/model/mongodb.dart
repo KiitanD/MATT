@@ -13,14 +13,18 @@ class MongoDatabase {
       LecturersCollection,
       Spring22Collection,
       FeePaymenCollection,
-      CouresRegCollection;
+      CouresRegCollection,
+      StaffCollection,
+      StudentCollection;
 
   static connect() async {
     db = await Db.create(MONGO_CONN_URL);
     db2 = await Db.create(MONGO_CONN_URI);
+    db3 = await Db.create(MONGO_CONN_URL2);
 
     await db2.open();
     await db.open();
+    await db3.open();
     inspect(db);
     PeriodCollection = db.collection(ClassPeriod_Coll);
     ClassCollection = db.collection(Classrooms_Coll);
@@ -30,7 +34,9 @@ class MongoDatabase {
     Spring22Collection = db.collection(Spring22_Coll);
 
     FeePaymenCollection = db2.collection(Fee_Coll);
-    print(FeePaymenCollection);
+
+    StaffCollection = db3.collection(Staff_Coll);
+    StudentCollection = db3.collection(Stud_Coll);
     return FeePaymenCollection;
   }
 
@@ -44,7 +50,9 @@ class MongoDatabase {
       var lecturersList = await LecturersCollection.find().toList();
       var spring22List = await Spring22Collection.find().toList();
       var feeList = await FeePaymenCollection.find().toList();
-      print(feeList);
+      var staffList = await StaffCollection.find().toList();
+      var studList = await StudentCollection.find().toList();
+      //  print(staffList);
 
       //Store the list in another list so we can return the value and call them in another class
       List generalValue = [
@@ -53,7 +61,9 @@ class MongoDatabase {
         courseList,
         lecturersList,
         spring22List,
-        feeList
+        feeList,
+        staffList,
+        studList
       ];
 
       //check if we converted the data properly

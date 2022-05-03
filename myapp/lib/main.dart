@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:myapp/model/LoginStaff.dart';
 import 'package:myapp/model/PreviousCourse.dart';
 import 'package:myapp/model/billingSystem.dart';
 import 'package:myapp/model/mongodb.dart';
@@ -12,6 +13,10 @@ void main() async {
   await Finance.feesCalc(10, 23000, "01232022");
   // await Finance.addAll(5000);
   await PreCourse.getPrevCourse("01112022");
+
+  await LoginStaff.checkStudent('ragbleta@ashesi.edu.gh', 'Ibisobia007');
+  // LoginStaff.encrypt('Ibisobia007');
+  //LoginStaff.decrypt('xkLX7mqE3FG2c06nr03dYA==');
   runApp(const MyApp());
 }
 
