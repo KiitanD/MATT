@@ -30,8 +30,8 @@ class CourseReg {
     var store = await MongoDatabase.getData();
     var paystat;
     store[5].forEach((element) => {
-      if (element["stid"] == StId) {paystat = element["payment_status"]}
-    });
+          if (element["stid"] == StId) {paystat = element["payment_status"]}
+        });
 
     if (paystat == "true") {
       return true;
@@ -45,8 +45,9 @@ class CourseReg {
     var store = await MongoDatabase.getData();
     var prevcourses;
     store[7].forEach((element) => {
-      if (element["stid"] == StId) {prevcourses = element["courses_taken"]}
-    });
+          if (element["stid"] == StId)
+            {prevcourses = element["courses_taken"] as List<dynamic>}
+        });
 
     if (prevcourses.contain(Code)) {
       return true;
@@ -55,18 +56,27 @@ class CourseReg {
     }
   }
 
+  //add student to course
+  static updateEnroll(StId, Code) async {
+    var u = await MongoDatabase.db4.findOne({"course_code": Code});
+    u["students"].add(StId);
+
+    await MongoDatabase.db4.save(u);
+  }
+
+  //Enrollment Method
   static enroll(String StId, String Code) async {
     var pay = checkPayment(StId);
     var pass = checkPreq(StId, Code);
 
     if (pay = true) {
       if (pass = true) {
-        return true;
+        updateEnroll(StId, Code);
       } else {
-        return false;
+        return "You have not met Prequisites for this Course";
       }
     } else {
-      return false;
+      return "Please sort out Tuition payment before you can be enrolled";
     }
   }
 }
