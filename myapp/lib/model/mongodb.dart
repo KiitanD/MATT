@@ -7,6 +7,7 @@ class MongoDatabase {
   static var db,
       db2,
       db3,
+      db4,
       PeriodCollection,
       ClassCollection,
       CoursesCollection,
@@ -15,16 +16,19 @@ class MongoDatabase {
       FeePaymenCollection,
       CouresRegCollection,
       StaffCollection,
+      CourseListCollection,
       StudentCollection;
 
   static connect() async {
     db = await Db.create(MONGO_CONN_URL);
     db2 = await Db.create(MONGO_CONN_URI);
     db3 = await Db.create(MONGO_CONN_URL2);
+    db4 = await Db.create(MONGO_CONN_URL3);
 
     await db2.open();
     await db.open();
     await db3.open();
+    await db4.open();
     inspect(db);
     PeriodCollection = db.collection(ClassPeriod_Coll);
     ClassCollection = db.collection(Classrooms_Coll);
@@ -37,6 +41,8 @@ class MongoDatabase {
 
     StaffCollection = db3.collection(Staff_Coll);
     StudentCollection = db3.collection(Stud_Coll);
+
+    CourseListCollection = db4.collection(CourseList_Coll);
     return FeePaymenCollection;
   }
 

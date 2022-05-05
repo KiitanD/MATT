@@ -1,4 +1,4 @@
-const MONGO_CONN_URL =
+ const MONGO_CONN_URL =
     "mongodb+srv://Omieibi:iUXEcoZt1hDWYbXI@matt.plnfh.mongodb.net/General?retryWrites=true&w=majority";
 
 const MONGO_CONN_URI =
