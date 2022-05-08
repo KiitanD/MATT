@@ -1,5 +1,6 @@
 // ignore_for_file: non_constant_identifier_names, prefer_typing_uninitialized_variables, unused_local_variable, file_names
 
+import 'package:myapp/model/constant.dart';
 import 'package:myapp/model/mongodb.dart';
 
 class CourseReg {
@@ -44,12 +45,16 @@ class CourseReg {
   static checkPreq(String StId, String Code) async {
     var store = await MongoDatabase.getData();
     var prevcourses;
+    var preq;
     store[7].forEach((element) => {
           if (element["stid"] == StId)
             {prevcourses = element["courses_taken"] as List<dynamic>}
         });
+    store[2].forEach((element) => {
+          if (element["_id"] == Code) {preq = element["pre-requisites"]}
+        });
 
-    if (prevcourses.contain(Code)) {
+    if (prevcourses.contain(preq)) {
       return true;
     } else {
       return false;
@@ -58,7 +63,9 @@ class CourseReg {
 
   //add student to course
   static updateEnroll(StId, Code) async {
-    var u = await MongoDatabase.db4.findOne({"course_code": Code});
+    var u = await MongoDatabase.db4
+        .collection(CourseList_Coll)
+        .findOne({"code": Code});
     u["students"].add(StId);
 
     await MongoDatabase.db4.save(u);

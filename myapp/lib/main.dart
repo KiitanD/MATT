@@ -1,8 +1,11 @@
+// ignore_for_file: unused_import
+
 import 'package:flutter/material.dart';
 import 'package:myapp/model/LoginStaff.dart';
 import 'package:myapp/model/PreviousCourse.dart';
 import 'package:myapp/model/billingSystem.dart';
 import 'package:myapp/model/mongodb.dart';
+import 'package:myapp/model/CourseReg.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -15,6 +18,8 @@ void main() async {
   await PreCourse.getPrevCourse("01112022");
 
   await LoginStaff.checkStudent('ragbleta@ashesi.edu.gh', 'Ibisobia007');
+
+  await CourseReg.enroll('01232022', 'CS341');
   // LoginStaff.encrypt('Ibisobia007');
   //LoginStaff.decrypt('xkLX7mqE3FG2c06nr03dYA==');
   runApp(const MyApp());
