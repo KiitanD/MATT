@@ -1,26 +1,61 @@
-import 'dart:developer';
+import 'dart:io';
 
 import 'package:mongo_dart/mongo_dart.dart';
 import 'package:myapp/model/constant.dart';
+import 'package:shelf/shelf.dart';
+import 'package:shelf/shelf_io.dart';
+import 'package:shelf_hotreload/shelf_hotreload.dart';
+import 'package:shelf_router/shelf_router.dart';
 
 class MongoDatabase {
   static var db,
+      db2,
+      db3,
       PeriodCollection,
       ClassCollection,
       CoursesCollection,
       LecturersCollection,
       Spring22Collection,
-      StudentInfoCollection;
-  static connect() async {
+
+      FeePaymenCollection,
+      CouresRegCollection,
+      StaffCollection,
+      StudentCollection;
+
+  static dynamic connect() async {
+
     db = await Db.create(MONGO_CONN_URL);
+    db2 = await Db.create(MONGO_CONN_URI);
+    db3 = await Db.create(MONGO_CONN_URL2);
+
+    await db2.open();
     await db.open();
-    inspect(db);
+    await db3.open();
+    //inspect(db);
     PeriodCollection = db.collection(ClassPeriod_Coll);
     ClassCollection = db.collection(Classrooms_Coll);
     CoursesCollection = db.collection(Courses_Coll);
+
     LecturersCollection = db.collection(Lecturers_Coll);
     Spring22Collection = db.collection(Spring22_Coll);
-    StudentInfoCollection = db.collection(StudentInfo_Coll);
+
+
+    FeePaymenCollection = db2.collection(Fee_Coll);
+
+    StaffCollection = db3.collection(Staff_Coll);
+    StudentCollection = db3.collection(Stud_Coll);
+
+    const port = 8081;
+    final app = Router();
+    app.get('/', (Request req) {
+      return Response.ok('Hello World');
+    });
+
+    final handler = Pipeline().addMiddleware(logRequests()).addHandler(app);
+
+    withHotreload(() => serve(handler, InternetAddress.anyIPv4, port));
+    return FeePaymenCollection;
+
   }
 
 //This method get the data from the database
@@ -32,29 +67,29 @@ class MongoDatabase {
       var courseList = await CoursesCollection.find().toList();
       var lecturersList = await LecturersCollection.find().toList();
       var spring22List = await Spring22Collection.find().toList();
-      var studentinfo = await StudentInfoCollection.find().toList();
-      //print(periodList);
+
+      var feeList = await FeePaymenCollection.find().toList();
+      var staffList = await StaffCollection.find().toList();
+      var studList = await StudentCollection.find().toList();
+      //  print(staffList);
+
+
       //Store the list in another list so we can return the value and call them in another class
-      var generalValue = [
+      List generalValue = [
         periodList,
         classList,
         courseList,
         lecturersList,
         spring22List,
-        studentinfo
+
+        feeList,
+        staffList,
+        studList
       ];
 
       //check if we converted the data properly
-      if (periodList.isSuccess &&
-          classList.isSuccess &&
-          courseList.isSuccess &&
-          lecturersList.isSuccess &&
-          spring22List.isSuccess &&
-          studentinfo.isSuccess) {
-        print("Retrived data succesfully");
-      } else {
-        print("Something wrong in retreival");
-      }
+
+
       return generalValue;
     } catch (e) {
       return e.toString();
