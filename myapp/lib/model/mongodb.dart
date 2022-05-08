@@ -58,6 +58,7 @@ class MongoDatabase {
       var feeList = await FeePaymenCollection.find().toList();
       var staffList = await StaffCollection.find().toList();
       var studList = await StudentCollection.find().toList();
+      var avalcourse = await CourseListCollection.find().toList();
       //  print(staffList);
 
       //Store the list in another list so we can return the value and call them in another class
@@ -69,7 +70,8 @@ class MongoDatabase {
         spring22List,
         feeList,
         staffList,
-        studList
+        studList,
+        avalcourse
       ];
 
       //check if we converted the data properly
