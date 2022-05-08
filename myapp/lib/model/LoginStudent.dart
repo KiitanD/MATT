@@ -6,7 +6,7 @@ class LoginStaff {
   String password;
 
   LoginStaff(this.email, this.password);
-
+//This function does the login check
   static Future<String> checkStudent(email, password) async {
     try {
       var val = await MongoDatabase.getData();
@@ -42,7 +42,7 @@ class LoginStaff {
     return encrypted_data.base64;
   }
 
-//dycrypt
+//This function decrypts the password
   static String decrypt(String text) {
     final key = Key.fromUtf8('qJ3i-jRwkYnrTh7n6bEWOQ3IhJH3jhCa'); //32 chars
     final iv = IV.fromUtf8('Ghu39Hh83beA7-G!');

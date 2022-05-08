@@ -1,7 +1,11 @@
-import 'dart:developer';
+import 'dart:io';
 
 import 'package:mongo_dart/mongo_dart.dart';
 import 'package:myapp/model/constant.dart';
+import 'package:shelf/shelf.dart';
+import 'package:shelf/shelf_io.dart';
+import 'package:shelf_hotreload/shelf_hotreload.dart';
+import 'package:shelf_router/shelf_router.dart';
 
 class MongoDatabase {
   static var db,
@@ -17,7 +21,7 @@ class MongoDatabase {
       StaffCollection,
       StudentCollection;
 
-  static connect() async {
+  static dynamic connect() async {
     db = await Db.create(MONGO_CONN_URL);
     db2 = await Db.create(MONGO_CONN_URI);
     db3 = await Db.create(MONGO_CONN_URL2);
@@ -25,7 +29,7 @@ class MongoDatabase {
     await db2.open();
     await db.open();
     await db3.open();
-    inspect(db);
+    //inspect(db);
     PeriodCollection = db.collection(ClassPeriod_Coll);
     ClassCollection = db.collection(Classrooms_Coll);
     CoursesCollection = db.collection(Courses_Coll);
@@ -37,6 +41,16 @@ class MongoDatabase {
 
     StaffCollection = db3.collection(Staff_Coll);
     StudentCollection = db3.collection(Stud_Coll);
+
+    const port = 8081;
+    final app = Router();
+    app.get('/', (Request req) {
+      return Response.ok('Hello World');
+    });
+
+    final handler = Pipeline().addMiddleware(logRequests()).addHandler(app);
+
+    withHotreload(() => serve(handler, InternetAddress.anyIPv4, port));
     return FeePaymenCollection;
   }
 

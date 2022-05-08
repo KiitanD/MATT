@@ -7,6 +7,7 @@ class LoginStaff {
 
   LoginStaff(this.email, this.password);
 
+//This function does the login check
   static Future<String> checkStudent(email, password) async {
     try {
       var val = await MongoDatabase.getData();

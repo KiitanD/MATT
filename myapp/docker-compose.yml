@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  mongo:
+    image: mongo
+    restart: always
+    ports:
+      - "8000:5000"
+    environment:
+      MONGO_CONN_USERNAME: "Omieibi"
+      MONGO_CONN_PASSWORD: "iUXEcoZt1hDWYbXI"
