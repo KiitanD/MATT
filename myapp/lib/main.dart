@@ -1,3 +1,5 @@
+// ignore_for_file: deprecated_member_use
+
 import 'package:flutter/material.dart';
 import 'package:myapp/model/LoginStaff.dart';
 import 'package:myapp/model/PreviousCourse.dart';
@@ -76,6 +78,40 @@ class _MyHomePageState extends State<MyHomePage> {
     // than having to individually change instances of widgets.
     return ASCPage(
       title: '',
+    );
+  }
+}
+
+//On Press Class for when user presses button
+
+class OnPress extends StatefulWidget {
+  const OnPress({Key? key}) : super(key: key);
+
+  @override
+  _State createState() => _State();
+}
+
+class _State extends State<OnPress> {
+  int count = 0;
+
+  void incrementCounter() {
+    setState(() {
+      count++;
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Flutter Tutorial - googleflutter.com'),
+      ),
+      body: Center(
+        child: RaisedButton(
+          onPressed: () => {incrementCounter()},
+          child: Text('Button Clicks - $count'),
+        ),
+      ),
     );
   }
 }

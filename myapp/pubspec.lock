@@ -269,6 +269,7 @@ packages:
       name: material_color_utilities
       url: "https://pub.dartlang.org"
     source: hosted
+
     version: "0.1.4"
   material_floating_search_bar:
     dependency: "direct main"
@@ -277,6 +278,7 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.3.7"
+
   meta:
     dependency: transitive
     description:
@@ -298,6 +300,7 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.2"
+
   nested:
     dependency: transitive
     description:
@@ -305,6 +308,7 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.0.0"
+
   path:
     dependency: transitive
     description:
@@ -512,7 +516,9 @@ packages:
       name: test_api
       url: "https://pub.dartlang.org"
     source: hosted
+
     version: "0.4.9"
+
   typed_data:
     dependency: transitive
     description:
@@ -591,5 +597,6 @@ packages:
     source: hosted
     version: "0.2.0+1"
 sdks:
+
   dart: ">=2.17.0-0 <3.0.0"
   flutter: ">=2.10.0-0"

@@ -1,10 +1,77 @@
 [
     {
+        "_id": "DLAB",
+        "capacity": 50
+    },
+    {
+        "_id": "EELAB",
+        "capacity": 50
+    },
+    {
+        "_id": "FAB103",
+        "capacity": 100
+    },
+    {
+        "_id": "FAB203",
+        "capacity": 100
+    },
+    {
+        "_id": "KING202",
+        "capacity": 50
+    },
+    {
+        "_id": "KING204",
+        "capacity": 50
+    },
+    {
+        "_id": "LAB221",
+        "capacity": 70
+    },
+    {
+        "_id": "LAB222",
+        "capacity": 70
+    },
+    {
+        "_id": "MELAB",
+        "capacity": 50
+    },
+    {
+        "_id": "NM207A",
+        "capacity": 70
+    },
+    {
+        "_id": "NM207B",
+        "capacity": 50
+    },
+    {
+        "_id": "OT"
+    },
+    {
+        "_id": "R115",
+        "capacity": 70
+    },
+    {
+        "_id": "R216",
+        "capacity": 70
+    },
+    {
+        "_id": "R217",
+        "capacity": 70
+    },
+    {
+        "_id": "R218",
+        "capacity": 70
+    },
+    {
         "_id": "RB100",
         "capacity": 100
     },
     {
         "_id": "RB115",
         "capacity": 100
+    },
+    {
+        "_id": "SCLAB",
+        "capacity": 70
     }
 ]

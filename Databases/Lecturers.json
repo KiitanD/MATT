@@ -36,7 +36,7 @@
     },
     {
         "_id": "AUL0008",
-        "name": "Alan Bukusi",
+        "name": "Allan Bukusi",
         "department": "HSS"
     },
     {
@@ -371,7 +371,7 @@
     },
     {
         "_id": "AUL0075",
-        "name": "Stephen Armah",
+        "name": "Stephen K. Armah",
         "department": "ENGR"
     },
     {
@@ -423,5 +423,10 @@
         "_id": "AUL0085",
         "name": "Eric Acheampong",
         "department": "HSS"
+    },
+    {
+        "_id": "AUL0086",
+        "name": "Anna Agyirwa Poku",
+        "department": "CSIS"
     }
 ]

@@ -15,11 +15,6 @@
         "department": "BUSA"
     },
     {
-        "_id": "AUF0003",
-        "name": "Jason Apaw Nkansah",
-        "department": "BUSA"
-    },
-    {
         "_id": "AUF0004",
         "name": "Yayra Azaglo",
         "department": "BUSA"
@@ -136,7 +131,7 @@
     },
     {
         "_id": "AUF0028",
-        "name": "Anna Agyirwa Poku",
+        "name": "Kwaku Asante",
         "department": "CSIS"
     },
     {
@@ -241,7 +236,7 @@
     },
     {
         "_id": "AUF0049",
-        "name": "Allotie Pappoe",
+        "name": "Allotei Pappoe",
         "department": "CSIS"
     },
     {
@@ -308,5 +303,10 @@
         "_id": "AUF0062",
         "name": "Emmanuel Agamah",
         "department": "HSS"
+    },
+    {
+        "_id": "AUF0063",
+        "name": "Jason Apaw Nkansah",
+        "department": "BUSA"
     }
 ]
