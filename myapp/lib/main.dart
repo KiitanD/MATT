@@ -1,3 +1,5 @@
+// ignore_for_file: deprecated_member_use
+
 import 'package:flutter/material.dart';
 import 'package:myapp/model/mongodb.dart';
 
@@ -121,8 +123,10 @@ class _MyHomePageState extends State<MyHomePage> {
 //On Press Class for when user presses button
 
 class OnPress extends StatefulWidget {
+  const OnPress({Key? key}) : super(key: key);
+
   @override
-  _State createState() => new _State();
+  _State createState() => _State();
 }
 
 class _State extends State<OnPress> {
@@ -136,14 +140,14 @@ class _State extends State<OnPress> {
 
   @override
   Widget build(BuildContext context) {
-    return new Scaffold(
-      appBar: new AppBar(
-        title: new Text('Flutter Tutorial - googleflutter.com'),
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Flutter Tutorial - googleflutter.com'),
       ),
-      body: new Center(
-        child: new RaisedButton(
+      body: Center(
+        child: RaisedButton(
           onPressed: () => {incrementCounter()},
-          child: new Text('Button Clicks - ${count}'),
+          child: Text('Button Clicks - $count'),
         ),
       ),
     );

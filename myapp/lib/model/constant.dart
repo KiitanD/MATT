@@ -7,3 +7,4 @@ const Courses_Coll = "Courses";
 const FacultyInterns_Coll = "FacultyInterns";
 const Lecturers_Coll = "Lecturers";
 const Spring22_Coll = "Spring22";
+const StudentInfo_Coll = "StudentInfo";
