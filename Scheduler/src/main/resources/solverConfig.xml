@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<solver xmlns="https://www.optaplanner.org/xsd/solver" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://www.optaplanner.org/xsd/solver https://www.optaplanner.org/xsd/solver/solver.xsd">
+  <moveThreadCount>4</moveThreadCount>
+  <solutionClass>TimeTable.Class </solutionClass>
+  <entityClass>Lesson.Class</entityClass>
+
+  <!-- Define the score function -->
+  <scoreDirectorFactory>
+    <constraintProviderClass>constraints.define_constraints</constraintProviderClass>
+    <initializingScoreTrend>ONLY_DOWN</initializingScoreTrend>
+  </scoreDirectorFactory>
+
+  <!-- Initialize a solution -->
+  <constructionHeuristic>
+    <constructionHeuristicType>FIRST_FIT</constructionHeuristicType>
+  </constructionHeuristic>
+
+  <!-- First search phase to get near-optimal result -->
+  <localSearch>
+    <termination>
+      <bestScoreLimit>-2hard/0soft</bestScoreLimit>
+    </termination>
+    <unionMoveSelector>
+      <pillarChangeMoveSelector>
+        <fixedProbabilityWeight>3</fixedProbabilityWeight>
+        <pillarSelector>
+          <entitySelector>
+            <entityClass>Lesson</entityClass>
+          </entitySelector>
+          <minimumSubPillarSize>1</minimumSubPillarSize>
+          <maximumSubPillarSize>10</maximumSubPillarSize>
+        </pillarSelector>
+        <valueSelector variableName="timeslot"></valueSelector>
+      </pillarChangeMoveSelector>
+      <changeMoveSelector>
+        <fixedProbabilityWeight>2.0</fixedProbabilityWeight>
+      </changeMoveSelector>
+      <swapMoveSelector>
+        <fixedProbabilityWeight>2.0</fixedProbabilityWeight>
+      </swapMoveSelector>
+    </unionMoveSelector>
+    <acceptor>
+      <entityTabuSize>10</entityTabuSize>
+      <simulatedAnnealingStartingTemperature>5hard/20soft</simulatedAnnealingStartingTemperature>
+    </acceptor>
+    <forager>
+      <acceptedCountLimit>10</acceptedCountLimit>
+    </forager>
+  </localSearch>
+  <!--Second search phase: terminates at 60 seconds if optimal result isn't found -->
+  <localSearch>
+    <termination>
+      <secondsSpentLimit>60</secondsSpentLimit>
+      <bestScoreLimit>0hard/0soft</bestScoreLimit>
+    </termination>
+
+    <changeMoveSelector>
+      <fixedProbabilityWeight>1.0</fixedProbabilityWeight>
+    </changeMoveSelector>
+
+    <forager>
+      <acceptedCountLimit>3</acceptedCountLimit>
+    </forager>
+  </localSearch>
+</solver>
