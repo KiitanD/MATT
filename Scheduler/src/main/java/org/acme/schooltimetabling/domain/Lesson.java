@@ -17,6 +17,7 @@ public class Lesson {
     private ArrayList<String> requiredFor;
     private ArrayList<String> electiveFor;
     private ArrayList<String> optionFor;
+    private int capacity;
     
 
     @PlanningVariable(valueRangeProviderRefs = "all_timeslots")
@@ -28,7 +29,7 @@ public class Lesson {
     public Lesson() {
     }
 
-    public Lesson(String id, String subject, String cohort, ArrayList<String> teachers, int duration, ArrayList<String> requiredFor, ArrayList<String> electiveFor, ArrayList<String> optionFor) {
+    public Lesson(String id, String subject, String cohort, ArrayList<String> teachers, int duration, ArrayList<String> requiredFor, ArrayList<String> electiveFor, ArrayList<String> optionFor, int capacity) {
         this.id = id;
         this.subject = subject;
         this.cohort = cohort;
@@ -37,18 +38,18 @@ public class Lesson {
         this.requiredFor = requiredFor;
         this.electiveFor = electiveFor;
         this.optionFor = optionFor;        
-
+        this.capacity = capacity;
     }
 
-    public Lesson(String id, String subject, String cohort, ArrayList<String> teachers, int duration, ArrayList<String> requiredFor, ArrayList<String> electiveFor, ArrayList<String> optionFor, Timeslot timeslot, Room room) {
-        this(id, subject, cohort, teachers, duration, requiredFor, electiveFor, optionFor);
+    public Lesson(String id, String subject, String cohort, ArrayList<String> teachers, int duration, ArrayList<String> requiredFor, ArrayList<String> electiveFor, ArrayList<String> optionFor, int capacity, Timeslot timeslot, Room room) {
+        this(id, subject, cohort, teachers, duration, requiredFor, electiveFor, optionFor, capacity);
         this.timeslot = timeslot;
         this.room = room;
     }
 
     @Override
     public String toString() {
-        return "Lesson:\n" + id + "\n" + subject + "\n" + cohort + "\n" + teachers + "\n" + duration + "\n" + requiredFor + "\n" + electiveFor + "\n" + optionFor + "\n" + timeslot + room;
+        return "Lesson:\n" + id + "\n" + subject + "\n" + cohort + "\n" + teachers + "\n" + duration + "\n" + requiredFor + "\n" + electiveFor + "\n" + optionFor + "\n" + capacity + "\n" + timeslot + room;
     }
 
     //Getters and Setters
@@ -81,6 +82,10 @@ public class Lesson {
 
     public ArrayList<String> getOptionFor() {
         return optionFor;
+    }
+
+    public int getCapacity() {
+        return capacity;
     }
 
     public Timeslot getTimeslot() {

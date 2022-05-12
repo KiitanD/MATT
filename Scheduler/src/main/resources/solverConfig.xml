@@ -47,7 +47,7 @@
       <acceptedCountLimit>10</acceptedCountLimit>
     </forager>
   </localSearch>
-  <!--Second search phase: terminates at 60 seconds if optimal result isn't found -->
+  <!--Second search phase: terminates after 60 seconds if optimal result isn't found -->
   <localSearch>
     <termination>
       <secondsSpentLimit>60</secondsSpentLimit>

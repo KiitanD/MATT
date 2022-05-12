@@ -111,48 +111,48 @@ public class JacksonMapper {
                 ArrayList<String> cohort_teachers = lessonMapper.convertValue(teachers.next(), ArrayList.class);  //lessonMapper.convertValue(course.get("alternative"), ArrayList.class);
                 switch (meeting_type) {
                     case "A":
-                        courseList.add(new Lesson(cohort_id+1, subject, cohort_letter, cohort_teachers,90, requiredFor, electiveFor, optionFor));
-                        courseList.add(new Lesson(cohort_id+2, subject, cohort_letter, cohort_teachers,90, requiredFor, electiveFor, optionFor));
-                        courseList.add(new Lesson(cohort_id+3, subject, cohort_letter, cohort_teachers,60, requiredFor, electiveFor, optionFor));
+                        courseList.add(new Lesson(cohort_id+1, subject, cohort_letter, cohort_teachers,90, requiredFor, electiveFor, optionFor, capacity));
+                        courseList.add(new Lesson(cohort_id+2, subject, cohort_letter, cohort_teachers,90, requiredFor, electiveFor, optionFor, capacity));
+                        courseList.add(new Lesson(cohort_id+3, subject, cohort_letter, cohort_teachers,60, requiredFor, electiveFor, optionFor, capacity));
                         break;
                     case "B":
-                        courseList.add(new Lesson(cohort_id+1, subject, cohort_letter, cohort_teachers,90, requiredFor, electiveFor, optionFor));
-                        courseList.add(new Lesson(cohort_id+2, subject, cohort_letter, cohort_teachers,90, requiredFor, electiveFor, optionFor));
-                        courseList.add(new Lesson(cohort_id+3, subject, cohort_letter, cohort_teachers,90, requiredFor, electiveFor, optionFor));
+                        courseList.add(new Lesson(cohort_id+1, subject, cohort_letter, cohort_teachers,90, requiredFor, electiveFor, optionFor, capacity));
+                        courseList.add(new Lesson(cohort_id+2, subject, cohort_letter, cohort_teachers,90, requiredFor, electiveFor, optionFor, capacity));
+                        courseList.add(new Lesson(cohort_id+3, subject, cohort_letter, cohort_teachers,90, requiredFor, electiveFor, optionFor, capacity));
                         break;
                     case "C":
-                        courseList.add(new Lesson(cohort_id+1, subject, cohort_letter, cohort_teachers,90, requiredFor, electiveFor, optionFor));
-                        courseList.add(new Lesson(cohort_id+2, subject, cohort_letter, cohort_teachers,90, requiredFor, electiveFor, optionFor));
+                        courseList.add(new Lesson(cohort_id+1, subject, cohort_letter, cohort_teachers,90, requiredFor, electiveFor, optionFor, capacity));
+                        courseList.add(new Lesson(cohort_id+2, subject, cohort_letter, cohort_teachers,90, requiredFor, electiveFor, optionFor, capacity));
                         break;
                     case "D":
-                        courseList.add(new Lesson(cohort_id+1, subject, cohort_letter, cohort_teachers,90, requiredFor, electiveFor, optionFor));
+                        courseList.add(new Lesson(cohort_id+1, subject, cohort_letter, cohort_teachers,90, requiredFor, electiveFor, optionFor, capacity));
                         break;  
                     case "E":
-                        courseList.add(new Lesson(cohort_id+1, subject, cohort_letter, cohort_teachers,90, requiredFor, electiveFor, optionFor));
-                        courseList.add(new Lesson(cohort_id+2, subject, cohort_letter, cohort_teachers,90, requiredFor, electiveFor, optionFor));
-                        courseList.add(new Lesson(cohort_id+3, subject, cohort_letter, cohort_teachers,90, requiredFor, electiveFor, optionFor));
-                        courseList.add(new Lesson(cohort_id+4, subject, cohort_letter, cohort_teachers,90, requiredFor, electiveFor, optionFor));
+                        courseList.add(new Lesson(cohort_id+1, subject, cohort_letter, cohort_teachers,90, requiredFor, electiveFor, optionFor, capacity));
+                        courseList.add(new Lesson(cohort_id+2, subject, cohort_letter, cohort_teachers,90, requiredFor, electiveFor, optionFor, capacity));
+                        courseList.add(new Lesson(cohort_id+3, subject, cohort_letter, cohort_teachers,90, requiredFor, electiveFor, optionFor, capacity));
+                        courseList.add(new Lesson(cohort_id+4, subject, cohort_letter, cohort_teachers,90, requiredFor, electiveFor, optionFor, capacity));
                         break;
                     case "F":
-                        courseList.add(new Lesson(cohort_id+1, subject, cohort_letter, cohort_teachers,90, requiredFor, electiveFor, optionFor));
-                        courseList.add(new Lesson(cohort_id+2, subject, cohort_letter, cohort_teachers,90, requiredFor, electiveFor, optionFor));
-                        courseList.add(new Lesson(cohort_id+3, subject, cohort_letter, cohort_teachers,120, requiredFor, electiveFor, optionFor));
+                        courseList.add(new Lesson(cohort_id+1, subject, cohort_letter, cohort_teachers,90, requiredFor, electiveFor, optionFor, capacity));
+                        courseList.add(new Lesson(cohort_id+2, subject, cohort_letter, cohort_teachers,90, requiredFor, electiveFor, optionFor, capacity));
+                        courseList.add(new Lesson(cohort_id+3, subject, cohort_letter, cohort_teachers,120, requiredFor, electiveFor, optionFor, capacity));
                         break;
                     case "G":
-                        courseList.add(new Lesson(cohort_id+1, subject, cohort_letter, cohort_teachers,90, requiredFor, electiveFor, optionFor));
-                        courseList.add(new Lesson(cohort_id+2, subject, cohort_letter, cohort_teachers,90, requiredFor, electiveFor, optionFor));
-                        courseList.add(new Lesson(cohort_id+3, subject, cohort_letter, cohort_teachers,180, requiredFor, electiveFor, optionFor));
+                        courseList.add(new Lesson(cohort_id+1, subject, cohort_letter, cohort_teachers,90, requiredFor, electiveFor, optionFor, capacity));
+                        courseList.add(new Lesson(cohort_id+2, subject, cohort_letter, cohort_teachers,90, requiredFor, electiveFor, optionFor, capacity));
+                        courseList.add(new Lesson(cohort_id+3, subject, cohort_letter, cohort_teachers,180, requiredFor, electiveFor, optionFor, capacity));
                         break;
                     case "H":
-                        courseList.add(new Lesson(cohort_id+1, subject, cohort_letter, cohort_teachers,180, requiredFor, electiveFor, optionFor));
+                        courseList.add(new Lesson(cohort_id+1, subject, cohort_letter, cohort_teachers,180, requiredFor, electiveFor, optionFor, capacity));
                         break; 
                     case "I":
-                    courseList.add(new Lesson(cohort_id+1, subject, cohort_letter, cohort_teachers,90, requiredFor, electiveFor, optionFor));
-                    courseList.add(new Lesson(cohort_id+2, subject, cohort_letter, cohort_teachers,180, requiredFor, electiveFor, optionFor));
+                    courseList.add(new Lesson(cohort_id+1, subject, cohort_letter, cohort_teachers,90, requiredFor, electiveFor, optionFor, capacity));
+                    courseList.add(new Lesson(cohort_id+2, subject, cohort_letter, cohort_teachers,180, requiredFor, electiveFor, optionFor, capacity));
                         break;
                     case "J":
-                    courseList.add(new Lesson(cohort_id+1, subject, cohort_letter, cohort_teachers,180, requiredFor, electiveFor, optionFor));
-                    courseList.add(new Lesson(cohort_id+2, subject, cohort_letter, cohort_teachers,180, requiredFor, electiveFor, optionFor));
+                    courseList.add(new Lesson(cohort_id+1, subject, cohort_letter, cohort_teachers,180, requiredFor, electiveFor, optionFor, capacity));
+                    courseList.add(new Lesson(cohort_id+2, subject, cohort_letter, cohort_teachers,180, requiredFor, electiveFor, optionFor, capacity));
                         break;
                 }
             }     
